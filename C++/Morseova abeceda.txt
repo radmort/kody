@@ -1,0 +1,77 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+struct TVzol
+{
+    char znak;
+    TVzol *bodk;
+    TVzol *ciark;
+};
+
+TVzol *vytvor(char pismeno, TVzol *b, TVzol *c)
+{
+    TVzol *novy = new TVzol;
+    novy->znak = pismeno;
+    novy->bodk = b;
+    novy->ciark = c;
+    return(novy);
+}
+
+void dekoduj(TVzol *strom, char morse[])
+{
+    TVzol *p = strom;
+    for (int i = 0; i < strlen(morse); i++)
+    {
+        if (morse[i] == '.')
+        {
+            p = p->bodk;
+        }
+else
+        {
+            if (morse[i] == '-')
+            {
+                p = p->ciark;
+            }
+            else
+{
+                cout << p->znak;
+                p = strom;
+            }
+        }
+    }
+}
+
+void vypis(TVzol *uzol)
+{
+    if (uzol != NULL)
+    {
+        vypis(uzol->bodk);
+        cout << uzol->znak << ' ';
+        vypis(uzol->ciark);
+    }
+}
+
+int main()
+{
+    TVzol *strom = NULL;
+    strom = vytvor(' ',
+                   vytvor('e',
+                          vytvor('i',
+                                 vytvor('s', vytvor('h', NULL, NULL), vytvor('v', NULL, NULL)),
+                                 vytvor('u', vytvor('f', NULL, NULL), NULL)),
+                          vytvor('a',
+                                 vytvor('r', vytvor('l', NULL, NULL), NULL),
+                                 vytvor('w', vytvor('p', NULL, NULL), vytvor('j', NULL, NULL)))),
+                   vytvor('t',
+                          vytvor('n',
+                                 vytvor('d', vytvor('b', NULL, NULL), vytvor('x', NULL, NULL)),
+                                 vytvor('k', vytvor('c', NULL, NULL), vytvor('y', NULL, NULL))),
+                          vytvor('m',
+                                 vytvor('g', vytvor('z', NULL, NULL), vytvor('q', NULL, NULL)),
+                                 vytvor('o', NULL, NULL))));
+    char morse[200];
+    cin >> morse;
+    dekoduj(strom, morse);
+    return 0;
+}

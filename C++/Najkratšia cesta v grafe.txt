@@ -1,0 +1,74 @@
+#include <iostream>
+#include <stdlib.h>
+#include <math.h>
+#include <iomanip>
+#include <string.h>
+
+using namespace std;
+
+void floyd2(int **M,int **R,int r) {
+    int i,j,k;
+    for(k=0; k<r; k++)
+        for(i=0; i<r; i++)
+            for(j=0; j<r; j++)
+                if(M[i][j]>M[i][k]+M[k][j]) {
+                    M[i][j]=M[i][k]+M[k][j];
+                    R[i][j]=k;
+                }
+}
+void cesta(int **R,char i,char j) {
+
+    i -= 'A';
+    j -= 'A';
+    int k=R[i][j];
+
+    if(k!=0) {
+        k+='A';
+        cesta(R,i+'A',k);
+        cout<<(char)k<<",";
+        cesta(R,k,j+'A');
+    }
+}
+int main() {
+
+    int i,j,pocetV,pocetH,c;
+    char v1,v2;
+    cin>>pocetV>>pocetH;
+    int **Mg=new int*[pocetV];
+    int **Mr=new int*[pocetV];
+    for(i=0; i<pocetV; i++) {
+        Mg[i]=new int[pocetV];
+        Mr[i]=new int[pocetV];
+    }
+    for(i=0; i<pocetV; i++)
+        for(j=0; j<pocetV; j++) {
+            Mg[i][j]=0;
+            Mr[i][j]=0;
+        }
+
+
+    for(i=0; i<pocetH; i++) {
+        cin>>v1>>v2>>c;
+        Mg[v1-'A'][v2-'A']=c;
+    }
+for(i=0; i<pocetV; i++) {
+        for(j=0; j<pocetV; j++) {
+
+            if(Mg[i][j] == 0){
+                Mg[i][j] = 10000;
+            }
+        }
+        Mg[i][i]=0;
+
+    }
+floyd2(Mg,Mr,pocetV);
+
+   cin>>v1>>v2;
+   if(Mg[v1-'A'][v2-'A'] == 10000){
+    cout<<"NO ROUTE";
+   }else{
+   cout<<Mg[v1-'A'][v2-'A']<<":";
+   cesta(Mr,v1,v2);
+}
+    return 0;
+}

@@ -1,0 +1,61 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <vector>
+
+using namespace std;
+
+typedef struct {
+    double x, y;
+} Point;
+
+double LagrangeInterpolation(Point *data, int n, double x) {
+    double lagrange, lagrangePolynomial = 0;
+    for (int j = 0; j < n; j++) {
+        lagrange = 1.0;
+        for (int i = 0; i < n; i++) {
+            if (i == j) continue;
+            lagrange *= (x - data[i].x) / (data[j].x - data[i].x);
+        }
+        lagrangePolynomial += data[j].y * lagrange;
+    }
+    return lagrangePolynomial;
+}
+
+double derivativeLagrange(Point *data, int n, double x0, double h = 0.0001) {
+    double differences[5], D = 0;
+
+    for (int i = -2; i <= 2; i++)
+        differences[i + 2] = LagrangeInterpolation(data, n, x0 + i * h);
+
+    for (int i = 0; i < 4; i++)
+        differences[i] = differences[i + 1] - differences[i];
+    D = (differences[1] + differences[2]) / 2;
+
+    for (int i = 0; i < 3; i++)
+        differences[i] = differences[i + 1] - differences[i];
+
+    for (int i = 0; i < 2; i++)
+        differences[i] = differences[i + 1] - differences[i];
+    D -= (differences[0] + differences[1]) / 12;
+
+    return D / h;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    Point *points = new Point[n];
+    for (int j = 0; j < n; j++) {
+        cin >> points[j].x;
+        cin >> points[j].y;
+    }
+    double h;
+    cin >> h;
+    cout << fixed;
+    cout << setprecision(2);
+    cout << derivativeLagrange(points, n, points[0].x, h) << " ";
+    cout << derivativeLagrange(points, n, points[n - 1].x, h);
+    delete[] points;
+    return 0;
+}

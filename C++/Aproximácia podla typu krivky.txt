@@ -1,0 +1,100 @@
+#include <iostream>
+#include <math.h>
+#include <string.h>
+#include <iomanip>
+#include <time.h>
+#include <debug/array>
+
+using namespace std;
+
+#define POL  4
+
+typedef struct {
+    double x,y;
+} Bod;
+
+enum TYP_KRIVKY {
+    LIN, LOG, EXP, MOC
+};
+
+typedef struct {
+    TYP_KRIVKY typ;
+    double a,b;
+} ciara;
+
+ciara minSq(Bod *body, int n, TYP_KRIVKY typ_proximacie){
+    // y=a+bx
+    double sx=0,sxx=0,sy=0,sxy=0,slxly;
+    double slx=0,slxx=0,sly=0,slxy=0,sxly=0;
+    for(int i=0; i<n; i++) {
+        sx+=body[i].x;
+        slx+=log(body[i].x); 
+        sy+=body[i].y;
+        sly+=log(body[i].y);
+sxy+=body[i].x * body[i].y;
+        slxy+=log(body[i].x) * body[i].y; 
+        sxly+=body[i].x * log(body[i].y); 
+        slxly+=log(body[i].x) *log(body[i].y);
+        sxx+=body[i].x * body[i].x;
+        slxx+=log(body[i].x) * log(body[i].x);
+    }
+
+ciara k;
+    switch(typ_proximacie) {
+    case LIN:
+        k.a=(n*sxy-sy*sx)/(n*sxx-sx*sx);
+        k.b=(sy-k.a*sx)/n;
+        break;
+    case LOG:
+        k.a=(n*slxy-sy*slx)/(n*slxx-slx*slx);
+        k.b=(sy-k.a*slx)/n;
+        break;
+case EXP:
+        k.a=(n*sxly-sly*sx)/(n*sxx-sx*sx);
+        k.b=(sly-k.a*sx)/n;
+        k.b=exp(k.b);
+        break;
+    case MOC:
+        k.a=(n*slxly-sly*slx)/(n*slxx-slx*slx);
+        k.b=(sly-k.a*slx)/n;
+        k.b=exp(k.b);
+        break;
+    }
+k.typ=typ_proximacie;
+    return k;
+}
+void vypisRovnicuCiary(ciara k)
+{
+        std::cout << std::fixed;
+        std::cout << std::setprecision(2);
+        cout<<k.a<<" ";
+        cout<<k.b;
+}
+
+int main()
+{
+    int n;
+    char typ[POL];
+    cin>>n;
+    cin>>typ;
+    Bod *body = new Bod[n];
+    for(int i=0;i<n;i++){
+        cin>>body[i].x;
+        cin>>body[i].y;
+    }
+    ciara Q;
+if(strcmp(typ,"LIN")==0){
+        Q=minSq(body,n,LIN);
+    }
+    if(strcmp(typ,"LOG")==0){
+        Q=minSq(body,n,LOG);
+    }
+if(strcmp(typ,"EXP")==0){
+        Q=minSq(body,n,EXP);
+    }
+    if(strcmp(typ,"MOC")==0){
+        Q=minSq(body,n,MOC);
+    }
+vypisRovnicuCiary(Q);
+
+}
