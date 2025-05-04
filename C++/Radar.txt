@@ -1,0 +1,59 @@
+#include <iostream>
+#include <fstream>
+#include <string.h>
+#include <stdlib.h>
+
+#define MAX 8
+
+using namespace std;
+
+typedef struct
+{
+    double fi, ro;
+    char kode[MAX];
+} Splane;
+
+int porovnaj1(const void *a, const void *b)
+{
+    Splane *l1 = (Splane *)a;
+    Splane *l2 = (Splane *)b;
+    if(l1->ro == l2->ro)
+    {
+        return 0;
+    }
+    return l1->ro > l2->ro ? 1 : -1;
+}
+int porovnaj2(const void *a, const void *b)
+{
+    Splane *l1 = (Splane *)a;
+    Splane *l2 = (Splane *)b;
+    return strcmp(l1->kode, l2->kode);
+}
+
+int main ()
+{
+    int n;
+    cin>>n;
+    Splane *lietadlo = new Splane[n];
+    for(int i=0; i<n; i++)
+    {
+        cin>>lietadlo[i].fi>>lietadlo[i].ro>>lietadlo[i].kode;
+    }
+    int s;
+    cin>>s;
+int (*porovnaj)(const void *a, const void *b);
+    if(s==0)
+    {
+        porovnaj = &porovnaj1;
+    }
+    else
+    {
+        porovnaj = &porovnaj2;
+    }
+    qsort(lietadlo, n, sizeof(Splane), porovnaj);
+for(int i=0; i<n; i++)
+    {
+        cout<<lietadlo[i].kode<<" "<<lietadlo[i].fi<<","<<lietadlo[i].ro<<endl;
+    }
+
+}

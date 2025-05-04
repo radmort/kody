@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|c:\\users\\jarmi\\documents\\kody skola\\c# cviko\\c# - na subory textak kopia\\cvpon14_4_25\\cvpon14_4_25\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76991DDD-156F-4BE5-974F-DCA751F57201}|CvPon14_4_25\\CvPon14_4_25.csproj|solutionrelative:cvpon14_4_25\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.Designer.cs*",
+              "RelativeToolTip": "CvPon14_4_25\\Form1.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:03:24.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CvPon14_4_25\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:00:40.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.resx",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Form1.resx",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.resx*",
+              "RelativeToolTip": "CvPon14_4_25\\Form1.resx*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-04T02:02:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.cs",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Form1.cs",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.cs*",
+              "RelativeToolTip": "CvPon14_4_25\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:02:09.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\App.config",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\App.config",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\App.config",
+              "RelativeToolTip": "CvPon14_4_25\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-04T02:02:02.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.cs",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Form1.cs",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Form1.cs [Design]*",
+              "RelativeToolTip": "CvPon14_4_25\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:00:30.545Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Program.cs",
+              "RelativeDocumentMoniker": "CvPon14_4_25\\Program.cs",
+              "ToolTip": "C:\\Users\\jarmi\\Documents\\kody skola\\C# cviko\\C# - na subory textak kopia\\CvPon14_4_25\\CvPon14_4_25\\Program.cs",
+              "RelativeToolTip": "CvPon14_4_25\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:00:27.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.exe.config
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.exe
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.pdb
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.csproj.AssemblyReference.cache
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.exe
+C:\Users\student\Documents\RSedivy\C#\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.pdb
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.exe.config
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.exe
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\bin\Debug\Cviko17_3_25_RS.pdb
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.csproj.AssemblyReference.cache
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.exe
+C:\Users\jarmi\Documents\kody skola\C# cviko\C# - na subory textak kopia\Cviko17_3_25_RS\Cviko17_3_25_RS\obj\Debug\Cviko17_3_25_RS.pdb

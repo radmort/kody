@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string.h>
+#define MAX 500
+#define ABC_LENGHT 26
+#define posun(x) (x-'a')
+
+using namespace std;
+
+void vigner_sifrum(char * cipher, char *plain, char *key){
+int d_cipher = strlen(cipher);
+ int d_key = strlen(key);
+ int i;
+ char znak;
+
+ for(i=0;i<d_cipher;i++){
+    znak = posun(cipher[i]) - posun(key[i%d_key]);
+    if(znak<0) znak += ABC_LENGHT;
+    znak += 'a';
+    plain[i] = znak;
+ }
+ plain[i]= 0;
+}
+
+
+int main()
+{
+    char key[MAX];
+    char cipher[MAX];
+    char plain[MAX];
+    cin >> cipher >> key;
+    vigner_sifrum(cipher, plain, key);
+    cout << plain << endl;
+    return 0;
+}

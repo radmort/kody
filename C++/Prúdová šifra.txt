@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+char sifrujZnak(char textum, int key){
+    return ((textum - 'a'+key)% 26) + 'a';
+}
+
+char * sifrujemText(char * plain, int key){
+    int n = strlen(plain);
+    char *cipher = new char[n];
+    cipher[0] = sifrujZnak(plain[0], key);
+    for(int i=1; i< n; i++){
+        cipher[i] = sifrujZnak(plain[i], (cipher[i-1]- 'a'));
+    }
+    return cipher;
+}
+int main()
+{
+    int k;
+    char *text = new char[101];
+    cin >> k >> text;
+    cout << sifrujemText(text,k) << endl;
+    return 0;
+}

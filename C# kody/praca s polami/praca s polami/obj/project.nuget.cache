@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hHWjIO33jLQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jarmi\\Documents\\VS22 kody\\praca s polami\\praca s polami\\praca s polami.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarmi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\jarmi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\jarmi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\jarmi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

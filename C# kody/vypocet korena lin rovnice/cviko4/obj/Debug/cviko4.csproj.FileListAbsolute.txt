@@ -1,0 +1,7 @@
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\bin\Debug\cviko4.exe.config
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\bin\Debug\cviko4.exe
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\bin\Debug\cviko4.pdb
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\obj\Debug\cviko4.csproj.AssemblyReference.cache
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\obj\Debug\cviko4.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\obj\Debug\cviko4.exe
+C:\Users\student\Documents\RSedivy\C#\cviko4\cviko4\obj\Debug\cviko4.pdb

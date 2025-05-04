@@ -1,0 +1,20 @@
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.exe.config
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.exe
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.pdb
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.AssemblyReference.cache
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.Form1.resources
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.Properties.Resources.resources
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.GenerateResource.cache
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.exe
+C:\Users\student\Documents\RSedivy\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.pdb
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.exe.config
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.exe
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\bin\Debug\Cviko17_06.pdb
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.AssemblyReference.cache
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.Form1.resources
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.Properties.Resources.resources
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.exe
+C:\Users\jarmi\Documents\kody skola\c# kody\Cviko17_06\Cviko17_06\obj\Debug\Cviko17_06.pdb

@@ -1,0 +1,14 @@
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\bin\Debug\net8.0\Matice diagonaly.exe
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\bin\Debug\net8.0\Matice diagonaly.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\bin\Debug\net8.0\Matice diagonaly.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\bin\Debug\net8.0\Matice diagonaly.dll
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\bin\Debug\net8.0\Matice diagonaly.pdb
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.dll
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\refint\Matice diagonaly.dll
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.pdb
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\Matice diagonaly.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Matice diagonaly\Matice diagonaly\obj\Debug\net8.0\ref\Matice diagonaly.dll

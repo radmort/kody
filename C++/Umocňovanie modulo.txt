@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int powerModulo(int x, int y, int n){
+    int nas = 1 ;
+ for(int i = 0; y > i ; i++ ){
+    nas = x*nas % n;
+ }
+ return nas;
+}
+
+int main()
+{
+    int x;
+    int y;
+    int n;
+    cin >> x >> y >> n ;
+     int spol = powerModulo(x, y, n);
+
+    cout << spol;
+    return 0;
+}

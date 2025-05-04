@@ -1,0 +1,131 @@
+#include <iostream>
+#include <math.h>
+#include <string.h>
+using namespace std;
+
+typedef struct
+{
+    int cit,men;
+} Szlom;
+
+struct TPrvok
+{
+    Szlom *data;
+    TPrvok *dalsi;
+};
+
+struct TZoznam
+{
+    TPrvok *prvy;
+    TPrvok *posledny;
+};
+
+void vloz(TZoznam *zoznam,int c,int m)
+{
+    TPrvok *novy = new TPrvok;  
+    novy->data = new Szlom;  
+    novy->data->cit = c;        
+    novy->data->men = m;
+    novy->dalsi = NULL;        
+    if(zoznam->prvy == NULL)   
+    {
+        zoznam->prvy = novy;
+    }
+else    
+    {
+        zoznam->posledny->dalsi = novy;
+    }
+    zoznam->posledny = novy;
+}
+
+double porovnaj(Szlom *z1, Szlom *z2, char smer)
+{
+    double h1 = (double)z1->cit / z1->men; 
+    double h2 = (double)z2->cit / z2->men;
+    if(smer == 'v')
+    {
+        return h1-h2;   
+    }
+    if(smer == 'z')
+    {
+        return h2-h1; 
+    }
+    return 0;
+}
+
+void vlozSort(TZoznam *zoznam,int c,int m,char smer)
+{
+    TPrvok *novy = new TPrvok;  
+    novy->data = new Szlom;  
+    novy->data->cit = c;        
+    novy->data->men = m;
+    novy->dalsi = NULL;        
+if(zoznam->prvy == NULL)   
+    {
+        zoznam->prvy = zoznam->posledny = novy;
+    }
+else    
+    {
+
+if(porovnaj(novy->data,zoznam->prvy->data,smer) <= 0) 
+        { 
+            novy->dalsi = zoznam->prvy; 
+            zoznam->prvy = novy;  
+        }
+if(porovnaj(novy->data,zoznam->posledny->data,smer) > 0) 
+        { 
+            zoznam->posledny->dalsi = novy; 
+            zoznam->posledny = novy;
+        }
+
+else 
+        { //vlozim
+            TPrvok *p1= zoznam->prvy;
+            TPrvok *p2= zoznam->prvy->dalsi;
+            while(porovnaj(p2->data,novy->data,smer) <0 )
+            {
+                p1 = p2;
+                p2 = p2->dalsi; 
+            }
+            p1->dalsi = novy;
+            novy->dalsi = p2;
+        }
+}
+}
+
+void vypisZlomok(Szlom *zlomok)
+{
+    cout<<zlomok->cit<<"/"<<zlomok->men<<endl;
+}
+void vypis(TZoznam *zoznam)
+{
+    if(zoznam->prvy == NULL) return;
+    TPrvok *p;
+    p = zoznam->prvy;
+
+    while(p != NULL)
+    {
+        vypisZlomok(p->data); 
+        p = p->dalsi;
+    };
+}
+
+int main()
+{
+    TZoznam *z = new TZoznam;
+    z->prvy = NULL;
+    z->posledny = NULL;
+    int n,cit,men;
+    char smer;
+    
+    cin>>n>>smer;
+    
+    for(int i=0; i<n; i++)
+    {
+        cin>>cit>>men;
+        vlozSort(z, cit, men,smer);
+    }
+    vypis(z);
+
+    return 0;
+}

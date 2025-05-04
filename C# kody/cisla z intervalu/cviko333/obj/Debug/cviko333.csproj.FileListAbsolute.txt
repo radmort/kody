@@ -1,0 +1,6 @@
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\bin\Debug\cviko333.exe.config
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\bin\Debug\cviko333.exe
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\bin\Debug\cviko333.pdb
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\obj\Debug\cviko333.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\obj\Debug\cviko333.exe
+C:\Users\student\Documents\RSedivy\C#\cviko333\cviko333\obj\Debug\cviko333.pdb

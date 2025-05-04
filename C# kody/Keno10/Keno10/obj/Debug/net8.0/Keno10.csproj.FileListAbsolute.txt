@@ -1,0 +1,14 @@
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\bin\Debug\net8.0\Keno10.exe
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\bin\Debug\net8.0\Keno10.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\bin\Debug\net8.0\Keno10.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\bin\Debug\net8.0\Keno10.dll
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\bin\Debug\net8.0\Keno10.pdb
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.dll
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\refint\Keno10.dll
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.pdb
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\Keno10.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Keno10\Keno10\obj\Debug\net8.0\ref\Keno10.dll

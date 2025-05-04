@@ -1,0 +1,14 @@
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\bin\Debug\net8.0\praca s polami.exe
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\bin\Debug\net8.0\praca s polami.deps.json
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\bin\Debug\net8.0\praca s polami.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\bin\Debug\net8.0\praca s polami.dll
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\bin\Debug\net8.0\praca s polami.pdb
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.dll
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\refint\praca s polami.dll
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.pdb
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\praca s polami.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\praca s polami\praca s polami\obj\Debug\net8.0\ref\praca s polami.dll
