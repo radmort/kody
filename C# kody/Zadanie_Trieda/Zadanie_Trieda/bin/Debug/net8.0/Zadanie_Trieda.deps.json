@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Zadanie_Trieda/1.0.0": {
+        "runtime": {
+          "Zadanie_Trieda.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zadanie_Trieda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

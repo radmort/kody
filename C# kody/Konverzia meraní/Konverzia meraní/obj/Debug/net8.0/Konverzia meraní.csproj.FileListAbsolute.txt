@@ -1,0 +1,14 @@
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\bin\Debug\net8.0\Konverzia meraní.exe
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\bin\Debug\net8.0\Konverzia meraní.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\bin\Debug\net8.0\Konverzia meraní.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\bin\Debug\net8.0\Konverzia meraní.dll
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\bin\Debug\net8.0\Konverzia meraní.pdb
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.dll
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\refint\Konverzia meraní.dll
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.pdb
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\Konverzia meraní.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Konverzia meraní\Konverzia meraní\obj\Debug\net8.0\ref\Konverzia meraní.dll

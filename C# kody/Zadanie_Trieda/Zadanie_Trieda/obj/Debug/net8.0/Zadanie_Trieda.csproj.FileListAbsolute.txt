@@ -1,0 +1,14 @@
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\bin\Debug\net8.0\Zadanie_Trieda.exe
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\bin\Debug\net8.0\Zadanie_Trieda.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\bin\Debug\net8.0\Zadanie_Trieda.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\bin\Debug\net8.0\Zadanie_Trieda.dll
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\bin\Debug\net8.0\Zadanie_Trieda.pdb
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.dll
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\refint\Zadanie_Trieda.dll
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.pdb
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\Zadanie_Trieda.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Zadanie_Trieda\Zadanie_Trieda\obj\Debug\net8.0\ref\Zadanie_Trieda.dll
