@@ -1,0 +1,17 @@
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.exe
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\refint\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\ref\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Kalkulačka.resources
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Properties.Resources.resources
