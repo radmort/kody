@@ -1,0 +1,5 @@
+C:\Users\jarmi\Desktop\vedecka kalkulacka\Kalkulacka.exe
+C:\Users\jarmi\Desktop\vedecka kalkulacka\Kalkulacka.dll
+C:\Users\jarmi\Desktop\vedecka kalkulacka\Kalkulacka.deps.json
+C:\Users\jarmi\Desktop\vedecka kalkulacka\Kalkulacka.runtimeconfig.json
+C:\Users\jarmi\Desktop\vedecka kalkulacka\Kalkulacka.pdb

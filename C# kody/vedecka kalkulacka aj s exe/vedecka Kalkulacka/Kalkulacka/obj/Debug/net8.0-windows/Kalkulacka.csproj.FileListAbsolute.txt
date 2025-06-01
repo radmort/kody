@@ -1,0 +1,70 @@
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.exe
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.deps.json
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.runtimeconfig.json
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfo.cs
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\refint\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.genruntimeconfig.cache
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\ref\Kalkulacka.dll
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Kalkulačka.resources
+C:\Users\jarmi\Documents\VS22 kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Properties.Resources.resources
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.exe
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.deps.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.runtimeconfig.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Kalkulačka.resources
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Properties.Resources.resources
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfo.cs
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.sourcelink.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\refint\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.genruntimeconfig.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\ref\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.exe
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.deps.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.runtimeconfig.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Kalkulačka.resources
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Properties.Resources.resources
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfo.cs
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.sourcelink.json
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\refint\Kalkulacka.dll
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.pdb
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.genruntimeconfig.cache
+C:\Users\jarmi\Documents\GitHub\kody\C# kody\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\ref\Kalkulacka.dll
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.exe
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.deps.json
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.runtimeconfig.json
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.dll
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\bin\Debug\net8.0-windows\Kalkulacka.pdb
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Kalkulačka.resources
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.Properties.Resources.resources
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.GenerateResource.cache
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.AssemblyInfo.cs
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.dll
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\refint\Kalkulacka.dll
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.pdb
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\Kalkulacka.genruntimeconfig.cache
+F:\sem zad C#\vedecka Kalkulacka\Kalkulacka\obj\Debug\net8.0-windows\ref\Kalkulacka.dll
