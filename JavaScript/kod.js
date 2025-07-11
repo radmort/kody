@@ -352,9 +352,10 @@ function transform(oldData) {
       .sort((a, b) => Number(b[0]) - Number(a[0]))  // Sort the years in descending order
       .map(([year, items]) => [  //  within each year, sort transactions from newest to oldest (sort later in code)
         year,
-        items.sort((a, b) => b.createdAt - a.createdAt)  // sort transactions from newest to oldest using timestamp
-      ])
-  ;
+        items
+        .sort((a, b) => b.createdAt - a.createdAt)  // sort transactions from newest to oldest using timestamp
+        .map(({ amount, createdAt, customerName }) => ({ amount, createdAt, customerName })) // Remove year and state for output
+    ]);
 
   return Object.fromEntries(groupYear);  //Convert back the sorted entries into an object 
 }
