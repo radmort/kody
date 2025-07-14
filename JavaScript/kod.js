@@ -1,11 +1,12 @@
  
- fetch("transactions.json")
-      .then(res => res.json())
+ const result = fetch("transactions.json")
+      .then(response => response.json())
       .then(data => {
         const result = transform(data);
-        console.log(result);
+        return console.log(result);
       })
       
+    
      
 
     function transform(oldData) {
@@ -19,11 +20,11 @@
         }), {});
 
       const groupYear = Object.entries(grouped)
-        .sort((a, b) => Number(a[0]) - Number(b[0])) // vzostupne
+        .sort((a, b) => (b.year) -  (a.year)) 
         .map(([year, items]) => [
           year,
           items
-            .sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt)) // vzostupne podľa dátumu
+            .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)) 
             .map(({ amount, createdAt, customerName }) => ({ amount, createdAt, customerName }))
         ]);
 
