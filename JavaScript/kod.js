@@ -1,15 +1,5 @@
 
-// Assignment: 
-// Create a JavaScript function that transforms an array of objects, 
-// containing amount, createdAt (timestamp), and customerName into an object grouped by year.
-// Some points to highlight:
-//    The years will be the keys. 
-//    The values will be arrays of transactions sorted from newest to oldest by createdAt.
-//    Only canceled transactions should be included in the output.
-//    Use functional programming (map, filter, reduce, ...).
-
-
-const oldData = [  //initial dataset 
+const oldData = [  
   {
     id: "ord-12345",
     createdAt: 1709481632000,
@@ -333,38 +323,38 @@ const oldData = [  //initial dataset
 ];
 
 
-console.log(transform(oldData)); // Console print
+console.log(transform(oldData)); 
 
 
 function transform(oldData) {    
-  const newDataSet = separe(oldData, 'year', 'amount', 'createdAt', 'customerName', 'state');  // Separe function to remove unnecessary data from the original dataset and create a new dataset 
+  const newDataSet = separe(oldData, 'year', 'amount', 'createdAt', 'customerName', 'state'); 
 
-  const grouped = newDataSet  // Filter only canceled transactions and group them by year
+  const grouped = newDataSet 
     .filter(item => item.state === "canceled")
-    .reduce((newObj, item) => ({  // Use reduce to group the filtered transactions by year
+    .reduce((newObj, item) => ({  
       ...newObj,
-      [item.year]: [...(newObj[item.year] || []), item] // if the year already exists, copy its array; if not, start with an empty array, and add the current transaction to the correct year group
+      [item.year]: [...(newObj[item.year] || []), item] 
     }), {}); 
 
 
 
-  const groupYear =  Object.entries(grouped)  // changed to array
-      .sort((a, b) => Number(b[0]) - Number(a[0]))  // Sort the years in descending order
-      .map(([year, items]) => [  //  within each year, sort transactions from newest to oldest (sort later in code)
+  const groupYear =  Object.entries(grouped)  
+      .sort((a, b) => Number(b[0]) - Number(a[0]))  
+      .map(([year, items]) => [  
         year,
         items
-        .sort((a, b) => b.createdAt - a.createdAt)  // sort transactions from newest to oldest using timestamp
-        .map(({ amount, createdAt, customerName }) => ({ amount, createdAt, customerName })) // Remove year and state for output
+        .sort((a, b) => b.createdAt - a.createdAt)  
+        .map(({ amount, createdAt, customerName }) => ({ amount, createdAt, customerName })) 
     ]);
 
-  return Object.fromEntries(groupYear);  //Convert back the sorted entries into an object 
+  return Object.fromEntries(groupYear);  
 }
 
-function separe (array, ...keys) {   // The already mentioned Separe function
-  return array.map(x =>             // For each object `x` in the array, create a new object
+function separe (array, ...keys) {   
+  return array.map(x =>            
     keys.reduce((obj, key) => 
-      Object.assign(obj, { [key]: x[key] }), // Add the specified key-value pair from `x` to the new object
-    {}) //Empty start
+      Object.assign(obj, { [key]: x[key] }), 
+    {}) 
   )
 }
 
