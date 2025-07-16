@@ -1,5 +1,4 @@
-
-const fs = require('node:fs');
+const fs = require("node:fs");
 
 const result = JSON.parse(fs.readFileSync("transactions.json", "UTF-8"));
 console.log(transform(result));
