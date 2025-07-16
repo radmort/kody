@@ -22,7 +22,7 @@ console.log(transform(result));
             .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)) 
             .map(({ amount, createdAt, customerName }) => ({ amount, createdAt, customerName }))
          ]);
-
+         
       return Object.fromEntries(groupYear);
     }
 
