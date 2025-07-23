@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="766D7F35-1C9A-CD08-D563-CFB90EB3A80E" name="Lokalita">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:28:17 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kod_lokality" id="6395D72D-35E8-4203-4436-E35E92796C3E">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:28:45 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazov" id="00982461-9B3E-9E3D-01DE-F0A071CD2EFA">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:29:07 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rozloha" id="780D05EE-EAC3-CC2D-B7AF-0BD644FB5E45">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:29:40 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="rozloha&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popis" id="501962D1-A61F-6E91-F8BA-B057035E57F2">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:30:33 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Evidencne_cislo" id="C30C1D15-CF9A-8B8C-3A82-34F44CD89CBA">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:31:18 UTC</createdTime>
+<generatorID>BAD10B43-BE88-6FDE-9957-27C7F25D2779</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<referedAttribute>88D3865E-F2D4-4312-DF6C-E5D19C2F3376</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DE599EF-9727-8378-014C-9242D284997F" name="Lokalita PK">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:29:04 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6395D72D-35E8-4203-4436-E35E92796C3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

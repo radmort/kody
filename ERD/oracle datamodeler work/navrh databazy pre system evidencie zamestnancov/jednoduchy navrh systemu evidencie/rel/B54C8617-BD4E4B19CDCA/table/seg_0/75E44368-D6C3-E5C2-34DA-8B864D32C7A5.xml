@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75E44368-D6C3-E5C2-34DA-8B864D32C7A5" name="Referat">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>F5A5CA8F-CE70-826C-D823-899F109E8FBC</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cislo_oddelenia" id="1B6A5105-0371-DBA2-48F6-C4063D5D08ED">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>15FC6DA5-02E4-2938-4CD8-3CA7B553BC09</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA5CC153-ECA6-4AC2-3193-DE06440D3F9A" referredColumn="89C845A1-D411-49B9-5967-79CD8CF37C17"/>
+</associations>
+</Column>
+<Column name="Fax" id="A9991F83-9640-2D76-0805-9B526DA8D482">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>79AD1DA1-071B-7C72-AFBB-17023C5B5F4F</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="194AB223-4B8C-847B-A08B-095C83B9A90C">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>147E395A-2471-5216-216B-98EB1E0B134B</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91DBEACC-8D6F-9D90-1056-3A510C355450" name="Referat_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>88A41E8E-1C34-C913-42BC-ABFC1E74FC37</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6A5105-0371-DBA2-48F6-C4063D5D08ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA97E8E5-B45D-DD0C-7EA9-6D6443FAD6EF" name="Hierarchy_2">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>DFAA7D36-A77C-0B23-DB4F-C57C81B87954</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6A5105-0371-DBA2-48F6-C4063D5D08ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

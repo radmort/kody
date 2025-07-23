@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1C7A05F-74E3-41BC-E94C-3B988285752A" name="Zamestnanec">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>452F510B-FBDA-354C-A36B-5F4D15157ABE</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Osobne_cislo" id="244DB7CA-3BCF-A3E4-F0A9-904F1D7A3664">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>8052FDD2-BEE4-BE7E-82C9-6268540709C4</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Priezvisko" id="30B4B7C4-457F-BD53-AF7A-844303F78B35">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>A16E331A-2DA6-0679-0F71-97D8944F14EE</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Meno" id="68DB22C8-FFC2-5ADD-268D-1E4F64CEE47B">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>F53409E2-F082-F572-711C-1A537AC45D25</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_narodenia" id="C2F78A50-6EF4-8872-6862-3639B8DC1957">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>CDED20B9-A405-3C8E-85A6-59CE962B9977</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pocet_deti" id="4D02D58F-ECEE-B819-16D2-48DC924420B5">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>B92DBCFF-268D-718A-98D1-56C4E29D4A41</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>15</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Poznamka" id="88E29A23-744B-590F-3513-735B817A9743">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>F4CC6C8D-ECCA-79DD-2ED5-F1B7C6173E1B</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oddelenie_Cislo_oddelenia1" id="3C35D854-09DB-3A63-8425-34A9206D5671">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>59477512-B957-EA65-34D6-B02C147F83BD</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="826590E5-6406-5E92-E414-CF97C9FFAB6C" referredColumn="89C845A1-D411-49B9-5967-79CD8CF37C17"/>
+</associations>
+</Column>
+<Column name="Oddelenie_Cislo_oddelenia" id="995CE132-5BA2-6F56-0278-86428B82BDE2">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>FD3AD0AF-73B8-BB32-171C-6D63D2989B2D</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD51D16-1E09-B021-482C-688263E11D94" referredColumn="89C845A1-D411-49B9-5967-79CD8CF37C17"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6907CCC1-1353-F5F5-92FD-2C0A0F49C9E8" name="Zamestnanec_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>586BE393-6656-4C1F-A84B-A1B15F1C3603</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="244DB7CA-3BCF-A3E4-F0A9-904F1D7A3664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C69B50B2-8B18-C7FF-1AC2-9679036A431E" name="Zamestnanec__UN">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:39:16 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C35D854-09DB-3A63-8425-34A9206D5671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="099AA20F-D9CE-9454-0A50-5DA7DBD65035" name="pracuje">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>76D3580E-A01E-7170-58FB-FD8FC76519BD</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="995CE132-5BA2-6F56-0278-86428B82BDE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D74AD40D-6FD6-8E8F-B289-B65EF5881EF6" name="vediev1">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>0F5502E2-D413-4CE6-CF1C-D13D28862300</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C35D854-09DB-3A63-8425-34A9206D5671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

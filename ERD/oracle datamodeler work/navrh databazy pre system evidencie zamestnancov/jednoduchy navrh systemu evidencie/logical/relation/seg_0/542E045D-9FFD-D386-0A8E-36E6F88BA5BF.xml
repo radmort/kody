@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="monitoruje" directorySegmentName="seg_0" id="542E045D-9FFD-D386-0A8E-36E6F88BA5BF">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:17:53 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>452F510B-FBDA-354C-A36B-5F4D15157ABE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>766D7F35-1C9A-CD08-D563-CFB90EB3A80E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

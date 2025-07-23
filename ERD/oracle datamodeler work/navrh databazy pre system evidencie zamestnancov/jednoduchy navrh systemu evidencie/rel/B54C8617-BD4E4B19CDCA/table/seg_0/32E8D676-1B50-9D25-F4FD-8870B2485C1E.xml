@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32E8D676-1B50-9D25-F4FD-8870B2485C1E" name="Auto">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>00C3B47F-524E-5A42-1EAD-5E4448F8626E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ECV" id="1EE3261C-C2FB-73CA-3B7E-84CC1D82450E">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>5C0590C8-3ECB-845D-5061-C28710258E9F</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Znacka" id="350CD2A4-8546-350E-5B61-2B4ADACB3354">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>A59492CE-215C-8A3C-B547-9A40C07BFAF4</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="7E2F5464-25D5-E7D3-C989-8FCD142B4837">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>77D4F6A1-35AD-B730-3538-376AC54B9499</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_vyroby" id="408F222E-A349-13DD-DE98-486C32BF2040">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>0D5715CB-CCAA-B08A-3E9E-652F21150E1C</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="rok_vyroby&gt;1980"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHM" id="83C6BCD6-2FF8-0F20-F82A-70C52D9C1FEB">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>13340DE9-0D4F-A0AC-603C-86541F1387B3</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="b" description=""/>
+<valueDef value="d" description=""/>
+</listOfValues>
+<defaultValue>b</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIN" id="399C3DF1-86AF-C958-CE8E-8D4369328EDE">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>053CEA0E-ED5B-C434-E479-529922C3F16B</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamestnanec_Osobne_cislo" id="841ADBE7-15CC-C120-1ACD-ECB0D70AACCF">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>9EC4BD96-6E3F-43F3-72F9-AD6927D401EA</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3B11F9-3404-BD51-3BE8-266822A83AD3" referredColumn="244DB7CA-3BCF-A3E4-F0A9-904F1D7A3664"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0F39374-F67E-CEEB-2C5D-4C019EF1E132" name="Auto_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>C7887447-7518-1244-E517-5FFC7C2937EE</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EE3261C-C2FB-73CA-3B7E-84CC1D82450E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="108DF8BA-6681-7F42-A82B-7DCE884416D5" name="Auto__UN">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:36:35 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="841ADBE7-15CC-C120-1ACD-ECB0D70AACCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74CDD808-3A82-2EB8-C036-4FA0395D400F" name="pouziva">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>1266B428-DB12-CEE8-A173-62975B3C451E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="841ADBE7-15CC-C120-1ACD-ECB0D70AACCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

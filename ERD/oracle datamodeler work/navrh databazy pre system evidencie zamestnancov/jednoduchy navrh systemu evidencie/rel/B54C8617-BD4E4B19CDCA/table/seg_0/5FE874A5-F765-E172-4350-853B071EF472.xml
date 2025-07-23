@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FE874A5-F765-E172-4350-853B071EF472" name="Prevadzka">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>1D614532-F73C-0415-FD68-4F33B02EEC1E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cislo_oddelenia" id="0C31C52E-097A-AF51-D05C-C60EFEEFF821">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>15FC6DA5-02E4-2938-4CD8-3CA7B553BC09</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A27C40C6-0EEF-C4D3-3EAB-51A5EFFD816A" referredColumn="89C845A1-D411-49B9-5967-79CD8CF37C17"/>
+</associations>
+</Column>
+<Column name="Stupen_nebezpecenstva" id="84926A38-897B-BC63-9D22-941D08DA5942">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>4A62B4B0-1083-7C01-FF41-4A7B45971CDD</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>3</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Typ" id="88931A87-6E40-5F18-8491-005B194F58EE">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>023D5A37-21A9-B44A-2609-89F726CB406B</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19B2ECD4-D987-77D9-51A0-D61137EB28E7" name="Prevadzka_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>88A41E8E-1C34-C913-42BC-ABFC1E74FC37</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C31C52E-097A-AF51-D05C-C60EFEEFF821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E24F6144-3C16-F686-0A3B-966658678425" name="Hierarchy_1">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>BFA0AED1-BBEE-52F6-22BD-768712A448D6</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C31C52E-097A-AF51-D05C-C60EFEEFF821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

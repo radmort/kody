@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="452F510B-FBDA-354C-A36B-5F4D15157ABE" name="Zamestnanec">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:43:54 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Osobne_cislo" id="8052FDD2-BEE4-BE7E-82C9-6268540709C4">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:44:55 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Priezvisko" id="A16E331A-2DA6-0679-0F71-97D8944F14EE">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:47:36 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Meno" id="F53409E2-F082-F572-711C-1A537AC45D25">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:50:36 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_narodenia" id="CDED20B9-A405-3C8E-85A6-59CE962B9977">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:51:21 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pocet_deti" id="B92DBCFF-268D-718A-98D1-56C4E29D4A41">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:52:33 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>15</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Poznamka" id="F4CC6C8D-ECCA-79DD-2ED5-F1B7C6173E1B">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:56:51 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cislo_oddelenia" id="59477512-B957-EA65-34D6-B02C147F83BD">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:35:33 UTC</createdTime>
+<generatorID>0F5502E2-D413-4CE6-CF1C-D13D28862300</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15FC6DA5-02E4-2938-4CD8-3CA7B553BC09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cislo_oddelenia1" id="FD3AD0AF-73B8-BB32-171C-6D63D2989B2D">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:38:05 UTC</createdTime>
+<generatorID>76D3580E-A01E-7170-58FB-FD8FC76519BD</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<referedAttribute>15FC6DA5-02E4-2938-4CD8-3CA7B553BC09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="586BE393-6656-4C1F-A84B-A1B15F1C3603" name="Zamestnanec PK">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:47:07 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8052FDD2-BEE4-BE7E-82C9-6268540709C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

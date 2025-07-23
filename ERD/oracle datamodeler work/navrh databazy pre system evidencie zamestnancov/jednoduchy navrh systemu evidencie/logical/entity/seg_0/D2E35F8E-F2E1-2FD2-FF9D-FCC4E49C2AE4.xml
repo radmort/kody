@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2E35F8E-F2E1-2FD2-FF9D-FCC4E49C2AE4" name="Pristroj">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:24:40 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Evidencne_cislo" id="88D3865E-F2D4-4312-DF6C-E5D19C2F3376">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:24:45 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazov" id="E52678F5-3EBF-7996-904C-7DC3B3FA59CA">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:25:12 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vyrobca" id="39C72D5E-4415-09A3-B0FB-7DC311B8CF41">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:25:31 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_vyroby" id="7C7DF9EC-4BA6-654B-E8E3-B0641100FF85">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:25:50 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vyrobne_cislo" id="F1612EE8-932B-264C-9320-11D42FCFE4F5">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:26:14 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skupina" id="B1B2CE00-8690-8109-6EB5-273549ACED92">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:26:42 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="A" description=""/>
+<valueDef value="Ax" description=""/>
+<valueDef value="B" description=""/>
+<valueDef value="Bx" description=""/>
+<valueDef value="N" description=""/>
+</listOfValues>
+<defaultValue>Ax</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Osobne_cislo" id="7DF792A6-CBDB-4EE0-1A9A-D9ADB55D7443">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:28:36 UTC</createdTime>
+<generatorID>558A545B-8560-C098-DA5E-F85F98E06F3E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8052FDD2-BEE4-BE7E-82C9-6268540709C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod_lokality" id="5AF637AC-C5AA-6D9B-DB2A-0E5938DAE4AA">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:31:31 UTC</createdTime>
+<generatorID>BAD10B43-BE88-6FDE-9957-27C7F25D2779</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<referedAttribute>6395D72D-35E8-4203-4436-E35E92796C3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="211F7428-1B72-3069-2F16-141B37BF1430" name="Pristroj PK">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 12:25:09 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88D3865E-F2D4-4312-DF6C-E5D19C2F3376</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

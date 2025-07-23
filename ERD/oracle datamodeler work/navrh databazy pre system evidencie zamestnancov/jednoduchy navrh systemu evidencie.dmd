@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cv4" id="01E06E3E-3762-2CAA-19F9-B5F3370D78D3" version="3.5">
+<createdBy>student</createdBy>
+<createdTime>2024-09-24 11:40:47 UTC</createdTime>
+<ownerDesignName>cv2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>01E06E3E-3762-2CAA-19F9-B5F3370D78D3</designId>
+</OSDM_Design>

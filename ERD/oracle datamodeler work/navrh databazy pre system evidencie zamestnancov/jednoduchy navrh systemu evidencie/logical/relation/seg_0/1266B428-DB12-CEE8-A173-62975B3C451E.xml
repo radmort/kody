@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pouziva" directorySegmentName="seg_0" id="1266B428-DB12-CEE8-A173-62975B3C451E">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:23:50 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<sourcePk>586BE393-6656-4C1F-A84B-A1B15F1C3603</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>452F510B-FBDA-354C-A36B-5F4D15157ABE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>00C3B47F-524E-5A42-1EAD-5E4448F8626E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

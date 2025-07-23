@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vedie" directorySegmentName="seg_0" id="0F5502E2-D413-4CE6-CF1C-D13D28862300">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:34:22 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<sourcePk>586BE393-6656-4C1F-A84B-A1B15F1C3603</sourcePk>
+<targetPk>88A41E8E-1C34-C913-42BC-ABFC1E74FC37</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>452F510B-FBDA-354C-A36B-5F4D15157ABE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1D558635-BB59-D65F-181B-2A6E5C8FC54D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

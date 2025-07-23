@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obsahuje" directorySegmentName="seg_0" id="BAD10B43-BE88-6FDE-9957-27C7F25D2779">
+<createdBy>student</createdBy>
+<createdTime>2024-10-01 12:31:18 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<engineerTo>
+<item key="B54C8617-272B-682E-D786-BD4E4B19CDCA" value="true"/>
+</engineerTo>
+<sourcePk>211F7428-1B72-3069-2F16-141B37BF1430</sourcePk>
+<targetPk>1DE599EF-9727-8378-014C-9242D284997F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D2E35F8E-F2E1-2FD2-FF9D-FCC4E49C2AE4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>766D7F35-1C9A-CD08-D563-CFB90EB3A80E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

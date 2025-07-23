@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A73C2C4F-EFF2-0E5A-E3B5-5F62C315C277" name="Pristroj">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>D2E35F8E-F2E1-2FD2-FF9D-FCC4E49C2AE4</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Evidencne_cislo" id="37B70352-623A-FFC7-AF56-567A051B258E">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>88D3865E-F2D4-4312-DF6C-E5D19C2F3376</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazov_pristroja" id="392D2E58-EC02-ECFD-CF7A-FD19D9545A16">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>E52678F5-3EBF-7996-904C-7DC3B3FA59CA</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vyrobca" id="414A8D20-F0C9-3A2D-1A6B-C4D7F97B01AA">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>39C72D5E-4415-09A3-B0FB-7DC311B8CF41</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_vyroby" id="DF4C3F27-CF28-E5E4-97C4-7E5FEA2BEAE3">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>7C7DF9EC-4BA6-654B-E8E3-B0641100FF85</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vyrobne_cislo" id="71FBEC11-9941-AA87-A6AC-55067FE7E47F">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>F1612EE8-932B-264C-9320-11D42FCFE4F5</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skupina" id="70C58600-2153-B9B7-F985-DC12EDB1A79E">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>B1B2CE00-8690-8109-6EB5-273549ACED92</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="A" description=""/>
+<valueDef value="Ax" description=""/>
+<valueDef value="B" description=""/>
+<valueDef value="Bx" description=""/>
+<valueDef value="N" description=""/>
+</listOfValues>
+<defaultValue>Ax</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamestnanec_Osobne_cislo" id="B882F245-6761-35A2-E081-91EEDE5FDA67">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>7DF792A6-CBDB-4EE0-1A9A-D9ADB55D7443</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A647027A-386A-015B-4948-9DF721358728" referredColumn="244DB7CA-3BCF-A3E4-F0A9-904F1D7A3664"/>
+</associations>
+</Column>
+<Column name="Kod_lokality" id="F990F736-C56A-BC4B-6969-81B047F6F81D">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>6395D72D-35E8-4203-4436-E35E92796C3E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazov_lokality" id="AE778458-10F8-0DC1-9A9E-F5F77B4DAEFA">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>00982461-9B3E-9E3D-01DE-F0A071CD2EFA</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rozloha" id="EB303D93-2DCA-B5D3-2683-D96533246C7B">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>780D05EE-EAC3-CC2D-B7AF-0BD644FB5E45</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="rozloha&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popis" id="E94B39A4-3B96-8F8E-F905-5814B53066F6">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>501962D1-A61F-6E91-F8BA-B057035E57F2</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4ECF722A-C08D-1336-DD6A-4B384A8B43FC" name="Pristroj_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>211F7428-1B72-3069-2F16-141B37BF1430</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37B70352-623A-FFC7-AF56-567A051B258E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6099DA-E8D6-D3AA-6C3C-D806606EDA89" name="Lokalita_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>1DE599EF-9727-8378-014C-9242D284997F</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F990F736-C56A-BC4B-6969-81B047F6F81D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5365234F-86C7-961B-EE26-EAC4153968CC" name="zodpoveda">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>558A545B-8560-C098-DA5E-F85F98E06F3E</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B882F245-6761-35A2-E081-91EEDE5FDA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

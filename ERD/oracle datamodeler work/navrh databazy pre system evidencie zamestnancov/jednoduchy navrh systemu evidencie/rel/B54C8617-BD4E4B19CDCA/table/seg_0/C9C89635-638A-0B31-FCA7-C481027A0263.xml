@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9C89635-638A-0B31-FCA7-C481027A0263" name="monitoruje">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zamestnanec_Osobne_cislo" id="B308A4B7-3C94-C557-2F45-EE6B1295734C">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3E2D565-A427-90A7-3330-D78C300B02D1" referredColumn="244DB7CA-3BCF-A3E4-F0A9-904F1D7A3664"/>
+</associations>
+</Column>
+<Column name="Lokalita_Kod_lokality" id="5C87C3C5-5B34-C715-38CF-208912424004">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DE013A8-E4C9-653B-7DCC-94014854EC23" referredColumn="F990F736-C56A-BC4B-6969-81B047F6F81D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F52CBCD9-30C4-6D29-9274-93046B74584A" name="monitoruje_PK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<ownerDesignName>cv4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B308A4B7-3C94-C557-2F45-EE6B1295734C"/>
+<colUsage columnID="5C87C3C5-5B34-C715-38CF-208912424004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95781B1F-6C03-5242-AE22-8050DA324D83" name="monitoruje_Zamestnanec_FK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>542E045D-9FFD-D386-0A8E-36E6F88BA5BF</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B308A4B7-3C94-C557-2F45-EE6B1295734C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B8E205B-46DB-1353-9A7E-53A9B55498C0" name="monitoruje_Lokalita_FK">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>542E045D-9FFD-D386-0A8E-36E6F88BA5BF</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C87C3C5-5B34-C715-38CF-208912424004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

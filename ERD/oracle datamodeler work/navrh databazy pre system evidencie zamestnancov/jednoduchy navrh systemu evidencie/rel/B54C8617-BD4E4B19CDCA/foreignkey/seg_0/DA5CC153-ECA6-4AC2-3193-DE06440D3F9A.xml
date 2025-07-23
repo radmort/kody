@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA5CC153-ECA6-4AC2-3193-DE06440D3F9A" containerWithKeyObject="75E44368-D6C3-E5C2-34DA-8B864D32C7A5" localFKIndex="FA97E8E5-B45D-DD0C-7EA9-6D6443FAD6EF" name="Hierarchy_2">
+<createdBy>student</createdBy>
+<createdTime>2024-10-15 12:22:47 UTC</createdTime>
+<generatorID>DFAA7D36-A77C-0B23-DB4F-C57C81B87954</generatorID>
+<ownerDesignName>cv4</ownerDesignName>
+<referredTableLongName>Oddelenie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3302E3FE-2D63-0519-58C4-D547FB48742A</referredTableID>
+<keyObject>D7D901D6-FD80-1827-A1E9-A60646AE05B5</keyObject>
+<referredKeyID>D7D901D6-FD80-1827-A1E9-A60646AE05B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cislo_oddelenia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
