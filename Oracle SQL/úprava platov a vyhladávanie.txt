@@ -1,0 +1,54 @@
+select priezvisko,plat from zamestnanec
+where plat> (select avg(plat) from zamestnanec);
+
+select meno, priezvisko from zamestnanec
+where pracuje_na =
+(select pracuje_na from zamestnanec
+where priezvisko = 'Novák')
+and priezvisko != 'Novák';
+
+select * from zamestnanec
+where pracuje_na in(
+select pracuje_na from zamestnanec
+where meno in ('Pavol','Jozef'));
+
+select priezvisko,datum_narodenia from zamestnanec
+where datum_narodenia =
+(select min(datum_narodenia) from zamestnanec)
+or datum_narodenia =
+(select max(datum_narodenia) from zamestnanec);
+
+select upper(priezvisko), lower(meno),length(meno) from zamestnanec
+where lower(priezvisko) like '%b%';
+
+select meno,priezvisko,length(priezvisko) from zamestnanec
+where length(priezvisko)>6
+order by length(priezvisko) desc;
+
+select count(*),length(meno) from zamestnanec
+where length(meno)  between 4 and 6
+group by length(meno)
+order by count(*) asc;
+
+select count(*),length(meno) from zamestnanec
+group by length(meno)
+having length(meno) between 4 and 6
+order by count(*) asc;
+
+update zamestnanec set plat = 100 where plat = 0;
+
+select plat, 1000/plat,round(1000/plat,3), trunc(1000/plat,3), round(plat,-2) from zamestnanec
+order by plat asc;
+
+select sysdate,nazov from oddelenie;
+select sysdate from dual;
+
+select to_char(sysdate,'dd. month YYYY, day'), to_char(sysdate,'HH:MI:SS')
+from dual;
+
+select to_char(sysdate,'dd. month YYYY, day'), to_char(sysdate,'HH24:MI:SS')
+from dual;
+
+select sysdate+2 as "Pozajtra" from dual;
+
+select priezvisko, datum_narodenia,sysdate, trunc(sysdate-datum_narodenia) as "Počet dni života" from zamestnanec;

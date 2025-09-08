@@ -1,0 +1,61 @@
+select meno from zamestnanec
+order by meno asc;
+
+select distinct meno from zamestnanec
+order by meno asc;
+
+select * from zamestnanec
+where priezvisko = 'Lehotský';
+
+select meno, priezvisko, plat from zamestnanec
+where plat between 450 and 500;
+
+select meno,priezvisko from zamestnanec
+where meno not in ('Jozef', 'Peter', 'Pavo');
+
+select priezvisko,pocet_deti from zamestnanec
+where pocet_deti= 1 or pocet_deti = 3;
+
+select priezvisko,pocet_deti from zamestnanec
+where pocet_deti in (1,3);
+
+select * from zamestnanec;
+
+select meno,priezvisko,veduci_odd from zamestnanec
+where veduci_odd is not null;
+
+select meno,priezvisko from zamestnanec
+where meno LIKE 'M%';
+
+select meno as "Mena na M",priezvisko from zamestnanec
+where meno LIKE 'M%';
+
+select priezvisko, meno from zamestnanec
+where priezvisko LIKE '%ý';
+
+select meno,priezvisko from zamestnanec
+where meno not like '%a%';
+
+select priezvisko, meno, datum_narodenia from zamestnanec
+where datum_narodenia like '%.%02%.%';
+
+select meno, datum_narodenia from zamestnanec
+where datum_narodenia between  '3.5.1960' and '1.1.1980';
+
+select * from zamestnanec;
+
+select count (*), AVG(pocet_deti) from zamestnanec;
+
+select count (*), AVG(plat) from zamestnanec
+where osobne_cislo like '%0_';
+
+select count (*), pracuje_na from zamestnanec
+group by pracuje_na;
+
+select MAX(plat),count(*),SUM(pocet_deti), pracuje_na from zamestnanec
+group by pracuje_na order by sum(pocet_deti) asc;
+
+select pracuje_na, avg(plat) from zamestnanec
+having avg(plat) > 450
+group by pracuje_na
+order by avg(plat) desc;

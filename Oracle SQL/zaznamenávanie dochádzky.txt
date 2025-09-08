@@ -1,0 +1,59 @@
+create SEQUENCE sekIDdochadzky;
+
+insert into dochadzka
+(ID_dochadzky,zaciatok,typ,osobne_cislo)
+values
+(sekIDdochadzky.nextval,sysdate,'praca',300505);
+
+set SERVEROUTPUT on;
+
+declare
+    pocet integer;
+begin
+    select count(*) into pocet from dochadzka;
+    dbms_output.put_line('Pocet zaznamov: ' || pocet);
+    select count(*) into pocet from dochadzka where trunc(zaciatok) = trunc(sysdate);
+    dbms_output.put_line('Pocet dnesnych: '|| pocet);
+end;
+/
+
+select count(osobne_cislo) from dochadzka
+where osobne_cislo = 870503 and trunc(zaciatok)=trunc(sysdate) ;
+
+create or replace function frcDnesnaDochadzka(in_osobne_cislo integer) return varchar2
+as
+    pocet integer;
+begin
+    select count(osobne_cislo) into pocet from dochadzka
+    where osobne_cislo = in_osobne_cislo and trunc(zaciatok)=trunc(sysdate) ;
+    if pocet=0 then
+    return 'nie';
+    else
+    return 'ano';
+end if;
+end;
+/
+
+begin
+    dbms_output.put_line('Osoba 401214 dnes: ' || frcDnesnaDochadzka(401214));
+    dbms_output.put_line('Osoba 870503 dnes: ' || frcDnesnaDochadzka(870503));
+end;
+/
+
+create or replace trigger ti_dochadzka
+before insert on dochadzka
+for each row
+
+declare
+    pocet integer;
+    osoba varchar2(50);
+
+begin
+    select meno || ' ' || priezvisko into osoba from zamestnanec
+    where osobne_cislo = :new.osobne_cislo;
+    dbms_output.put_line('Osoba : '|| osoba);
+    select count(*) into pocet from dochadzka where osobne_cislo=:new.osobne_cislo;
+    dbms_output.put_line('Zaznamov celkom: '|| pocet);
+    dbms_output.put_line('Dnes: '|| frcDnesnaDochadzka(:new.osobne_cislo));
+end;
+/
