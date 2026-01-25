@@ -1,0 +1,52 @@
+version: "3.8"
+
+services:
+  mariadb:
+    image: mariadb:11.4
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    restart: always
+    # Port na host nepotrebuješ, ak sa pripája len druhý kontajner.
+    # Odkomentuj, ak chceš prístup z hosta (DBeaver a pod.)
+    # ports:
+    #   - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ubuntu_light:
+    build:
+      context: .
+      dockerfile: ubuntu-dev.Dockerfile
+    image: hermes/ubuntu-dev:22.04
+    container_name: ubuntu_light
+    command: sleep infinity
+    tty: true
+    working_dir: /work
+    environment:
+      # pre C++ app: načítaš cez std::getenv(...)
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./src:/work
+      # - ccache:/home/dev/.ccache
+    depends_on:
+      mariadb:
+        condition: service_healthy
+
+volumes:
+  mariadb_data:
+    driver: local
+  # ccache:
+  #   driver: local

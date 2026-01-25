@@ -1,0 +1,71 @@
+{
+    "font": "/usr/share/fonts/truetype/inconsolata/Inconsolata-Regular.ttf",
+    "fontBold": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+    "margins": {
+        "left": 50,
+        "right": 50,
+        "bottom": 20,
+        "top": 60
+    },
+    "head": {
+        "labelFontSize": "11",
+        "valueFontSize": "10",
+        "supplier": {
+            "x": "L",
+            "y": "T-24"
+        },
+        "client": {
+            "x": "L+250",
+            "y": "T-24"
+        }
+    },
+    "payment": {
+        "x": "L",
+        "y": "T-250"
+    },
+    "table": {
+        "header": {
+            "x": "L",
+            "y": "T-300"
+        },
+        "rowStartY": "T-330",
+        "rowLineHeight": 14,
+        "colsX": {
+            "no": "L",
+            "name": "L+30",
+            "qty": "L+280",
+            "unit": "L+320",
+            "unit_price": "L+370",
+            "total": "L+430"
+        }
+    },
+    "summary": {
+        "xLabel": "L+320",
+        "xValue": "L+430"
+    },
+    "dates": {
+        "labelFontSize": "10",
+        "valueFontSize": "11",
+        "issue": {
+            "x": "L",
+            "y": "T-220"
+        },
+        "due": {
+            "x": "L+250",
+            "y": "T-220"
+        }
+    },
+    "qr": {
+        "labelFontSize": "8",
+        "payme": {
+            "x": "L+250",
+            "y": "T-250",
+            "scale": 1.25
+        },
+        "epc": {
+            "x": "L+16",
+            "y": "B+16",
+            "scale": 2.0
+        }
+    }
+}

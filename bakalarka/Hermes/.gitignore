@@ -1,0 +1,12 @@
+# build
+hermes
+
+# directories
+.vscode/
+.allai/
+build/
+bin/
+
+# files
+.env
+invoice.pdf
