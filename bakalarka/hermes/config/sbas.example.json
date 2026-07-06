@@ -1,0 +1,33 @@
+{
+  "_comment": "Kópia ako config/sbas.json. SBAS = Slovak Banking API Standard (SBA). OAuth/AIS URL môžete vybrať na stránke Banka z config/sbas_banks_catalog.json; client_id/client_secret vždy v tomto súbore alebo .env. Voliteľné oauth.authorize_params (napr. {\"lang\":\"sk\"}) doplnia query na authorize URL.",
+  "enabled": false,
+  "provider_label": "default",
+  "oauth": {
+    "authorize_url": "https://EXAMPLE-BANK.SK/oauth2/authorize",
+    "token_url": "https://EXAMPLE-BANK.SK/oauth2/token",
+    "client_id": "YOUR_TPP_CLIENT_ID",
+    "client_secret": "",
+    "scope": "AIS",
+    "use_pkce": true
+  },
+  "ais": {
+    "api_base": "https://EXAMPLE-BANK.SK/psd2/aisp/v1",
+    "accounts_path": "/accounts",
+    "transactions_path_template": "/accounts/{accountId}/transactions",
+    "transaction_query": {
+      "bookingStatus": "booked"
+    }
+  },
+  "mock": {
+    "enabled": false,
+    "transactions": [
+      {
+        "transactionId": "MOCK-TX-1",
+        "bookingDate": "2026-04-01",
+        "creditDebitIndicator": "CRDT",
+        "transactionAmount": { "amount": "120.00", "currency": "EUR" },
+        "remittanceInformationUnstructured": ["VS 2026-0001", "Faktura R2026-0001"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "smtp": {
+    "host":        "",
+    "port":        "465",
+    "user":        "",
+    "password":    "",
+    "from_name":   "Hermes",
+    "from_email":  "",
+    "use_tls":     true
+  },
+
+  "seller": {
+    "name":    "Dusan Horvath",
+    "address": "Golianova 23, 91702 Trnava",
+    "ico":     "50761773",
+    "dic":     "1081429888",
+    "icdph":   "",
+    "iban":    "SK9511000000002943217802",
+    "bank":    "Tatra banka",
+    "email":   "info@dusanhorvath.sk",
+    "phone":   "+421 910 160 112"
+  },
+
+  "app": {
+    "log_dir":                        "/var/log/hermes",
+    "invoice_tmp_dir":                "/tmp/hermes_invoices",
+    "due_days_threshold":         30,
+    "reminder_days_after_issue":  7,
+    "reminder_min_days_between":  2
+  }
+}

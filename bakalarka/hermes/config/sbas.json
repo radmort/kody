@@ -1,0 +1,40 @@
+{
+  "_comment": "SBAS konfigurácia. enabled=true zapne OAuth flow na stránke Banka. URL pre OAuth/AIS sa berú z katalógu (sbas_banks_catalog.json) podľa výberu banky -- sem stačí client_id. Pre sandbox Tatra banky: registrujte sa na developer.tatrabanka.sk, získajte client_id/secret a vyplňte nižšie alebo do .env (SBAS_CLIENT_SECRET).",
+  "enabled": true,
+  "provider_label": "default",
+  "oauth": {
+    "authorize_url": "",
+    "token_url": "",
+    "client_id": "",
+    "client_secret": "",
+    "scope": "AIS",
+    "use_pkce": true
+  },
+  "ais": {
+    "api_base": "",
+    "accounts_path": "/accounts",
+    "transactions_path_template": "/accounts/{accountId}/transactions",
+    "transaction_query": {
+      "bookingStatus": "booked"
+    }
+  },
+  "mock": {
+    "enabled": true,
+    "transactions": [
+      {
+        "transactionId": "MOCK-R2026-0006",
+        "bookingDate": "2026-04-03",
+        "creditDebitIndicator": "CRDT",
+        "transactionAmount": {
+          "amount": "5000.00",
+          "currency": "EUR"
+        },
+        "remittanceInformationUnstructured": [
+          "Uhrada faktury R2026-0006",
+          "VS 2026-0006",
+          "variabilny symbol 20260006"
+        ]
+      }
+    ]
+  }
+}

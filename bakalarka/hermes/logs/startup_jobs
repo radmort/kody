@@ -1,0 +1,512 @@
+[2026-04-07 23:54:48 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-07 23:54:48 +0000] startup: overdue.php ===
+[2026-04-07] SUMMARY job=overdue date=2026-04-07 invoices_marked_overdue=0
+[2026-04-07] overdue: nothing to update
+=== [2026-04-07 23:54:48 +0000] startup: monthly.php ===
+[2026-04-07 23:54:48] === Hermes Monthly Invoice Job – Day 7 (2026-04-07) ===
+[2026-04-07 23:54:48] Templates scheduled for today (send_day=7): 0
+[2026-04-07 23:54:48] SUMMARY job=monthly_templates date=2026-04-07 day=7 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-07 23:54:48] Nothing to do.
+=== [2026-04-07 23:54:48 +0000] startup: bank_sync.php ===
+[2026-04-07T23:54:48+00:00] SUMMARY job=bank_sync date=2026-04-07 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-07 23:54:48 +0000] startup jobs batch done
+[2026-04-07 23:56:55 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-07 23:56:55 +0000] startup: overdue.php ===
+[2026-04-07] SUMMARY job=overdue date=2026-04-07 invoices_marked_overdue=0
+[2026-04-07] overdue: nothing to update
+=== [2026-04-07 23:56:55 +0000] startup: monthly.php ===
+[2026-04-07 23:56:55] === Hermes Monthly Invoice Job – Day 7 (2026-04-07) ===
+[2026-04-07 23:56:55] Templates scheduled for today (send_day=7): 0
+[2026-04-07 23:56:55] SUMMARY job=monthly_templates date=2026-04-07 day=7 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-07 23:56:55] Nothing to do.
+=== [2026-04-07 23:56:55 +0000] startup: bank_sync.php ===
+[2026-04-07T23:56:55+00:00] SUMMARY job=bank_sync date=2026-04-07 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-07 23:56:55 +0000] startup jobs batch done
+[2026-04-08 00:00:27 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 00:00:27 +0000] startup: overdue.php ===
+[2026-04-08] marked overdue: #G2026-0002 (id=22)
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=1
+[2026-04-08] overdue: 1 invoice(s) updated
+=== [2026-04-08 00:00:27 +0000] startup: monthly.php ===
+[2026-04-08 00:00:27] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 00:00:27] Templates scheduled for today (send_day=8): 0
+[2026-04-08 00:00:27] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 00:00:27] Nothing to do.
+=== [2026-04-08 00:00:27 +0000] startup: bank_sync.php ===
+[2026-04-08T00:00:28+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 00:00:28 +0000] startup jobs batch done
+[2026-04-08 00:09:54 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 00:09:54 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 00:09:54 +0000] startup: monthly.php ===
+[2026-04-08 00:09:54] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 00:09:54] Templates scheduled for today (send_day=8): 0
+[2026-04-08 00:09:54] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 00:09:54] Nothing to do.
+=== [2026-04-08 00:09:54 +0000] startup: bank_sync.php ===
+[2026-04-08T00:09:54+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 00:09:54 +0000] startup jobs batch done
+[2026-04-08 00:24:56 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 00:24:56 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 00:24:56 +0000] startup: monthly.php ===
+[2026-04-08 00:24:57] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 00:24:57] Templates scheduled for today (send_day=8): 0
+[2026-04-08 00:24:57] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 00:24:57] Nothing to do.
+=== [2026-04-08 00:24:57 +0000] startup: bank_sync.php ===
+[2026-04-08T00:24:57+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 00:24:57 +0000] startup jobs batch done
+[2026-04-08 00:36:18 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 00:36:18 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 00:36:18 +0000] startup: monthly.php ===
+[2026-04-08 00:36:18] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 00:36:18] Templates scheduled for today (send_day=8): 0
+[2026-04-08 00:36:18] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 00:36:18] Nothing to do.
+=== [2026-04-08 00:36:18 +0000] startup: bank_sync.php ===
+[2026-04-08T00:36:18+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 00:36:18 +0000] startup jobs batch done
+[2026-04-08 01:13:09 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 01:13:09 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 01:13:10 +0000] startup: monthly.php ===
+[2026-04-08 01:13:10] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 01:13:10] Templates scheduled for today (send_day=8): 0
+[2026-04-08 01:13:10] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 01:13:10] Nothing to do.
+=== [2026-04-08 01:13:10 +0000] startup: bank_sync.php ===
+[2026-04-08T01:13:10+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 01:13:10 +0000] startup jobs batch done
+[2026-04-08 01:19:58 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 01:19:58 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 01:19:58 +0000] startup: monthly.php ===
+[2026-04-08 01:19:58] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 01:19:58] Templates scheduled for today (send_day=8): 0
+[2026-04-08 01:19:58] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 01:19:58] Nothing to do.
+=== [2026-04-08 01:19:58 +0000] startup: bank_sync.php ===
+[2026-04-08T01:19:58+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 01:19:58 +0000] startup jobs batch done
+[2026-04-08 01:21:40 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-08 01:21:40 +0000] startup: overdue.php ===
+[2026-04-08] SUMMARY job=overdue date=2026-04-08 invoices_marked_overdue=0
+[2026-04-08] overdue: nothing to update
+=== [2026-04-08 01:21:40 +0000] startup: monthly.php ===
+[2026-04-08 01:21:40] === Hermes Monthly Invoice Job – Day 8 (2026-04-08) ===
+[2026-04-08 01:21:40] Templates scheduled for today (send_day=8): 0
+[2026-04-08 01:21:40] SUMMARY job=monthly_templates date=2026-04-08 day=8 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-08 01:21:40] Nothing to do.
+=== [2026-04-08 01:21:40 +0000] startup: bank_sync.php ===
+[2026-04-08T01:21:40+00:00] SUMMARY job=bank_sync date=2026-04-08 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-08 01:21:40 +0000] startup jobs batch done
+[2026-04-11 18:12:01 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 18:12:01 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 18:12:01 +0000] startup: monthly.php ===
+[2026-04-11 18:12:01] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 18:12:01] Templates scheduled for today (send_day=11): 0
+[2026-04-11 18:12:01] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 18:12:01] Nothing to do.
+=== [2026-04-11 18:12:01 +0000] startup: bank_sync.php ===
+[2026-04-11T18:12:02+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 18:12:02 +0000] startup jobs batch done
+[2026-04-11 18:22:33 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 18:22:33 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 18:22:33 +0000] startup: monthly.php ===
+[2026-04-11 18:22:33] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 18:22:33] Templates scheduled for today (send_day=11): 0
+[2026-04-11 18:22:33] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 18:22:33] Nothing to do.
+=== [2026-04-11 18:22:33 +0000] startup: bank_sync.php ===
+[2026-04-11T18:22:33+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 18:22:33 +0000] startup jobs batch done
+[2026-04-11 18:32:13 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 18:32:13 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 18:32:13 +0000] startup: monthly.php ===
+[2026-04-11 18:32:13] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 18:32:13] Templates scheduled for today (send_day=11): 0
+[2026-04-11 18:32:13] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 18:32:13] Nothing to do.
+=== [2026-04-11 18:32:13 +0000] startup: bank_sync.php ===
+[2026-04-11T18:32:13+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 18:32:13 +0000] startup jobs batch done
+[2026-04-11 18:53:03 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 18:53:03 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 18:53:03 +0000] startup: monthly.php ===
+[2026-04-11 18:53:03] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 18:53:03] Templates scheduled for today (send_day=11): 0
+[2026-04-11 18:53:03] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 18:53:03] Nothing to do.
+=== [2026-04-11 18:53:03 +0000] startup: bank_sync.php ===
+[2026-04-11T18:53:03+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 18:53:03 +0000] startup jobs batch done
+[2026-04-11 20:24:52 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 20:24:52 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 20:24:52 +0000] startup: monthly.php ===
+[2026-04-11 20:24:52] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 20:24:52] Templates scheduled for today (send_day=11): 0
+[2026-04-11 20:24:52] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 20:24:52] Nothing to do.
+=== [2026-04-11 20:24:52 +0000] startup: bank_sync.php ===
+[2026-04-11T20:24:52+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 20:24:52 +0000] startup jobs batch done
+[2026-04-11 20:35:23 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 20:35:23 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 20:35:23 +0000] startup: monthly.php ===
+[2026-04-11 20:35:23] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 20:35:23] Templates scheduled for today (send_day=11): 0
+[2026-04-11 20:35:23] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 20:35:23] Nothing to do.
+=== [2026-04-11 20:35:23 +0000] startup: bank_sync.php ===
+[2026-04-11T20:35:23+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 20:35:23 +0000] startup jobs batch done
+[2026-04-11 21:06:08 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 21:06:08 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 21:06:09 +0000] startup: monthly.php ===
+[2026-04-11 21:06:09] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 21:06:09] Templates scheduled for today (send_day=11): 0
+[2026-04-11 21:06:09] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 21:06:09] Nothing to do.
+=== [2026-04-11 21:06:09 +0000] startup: bank_sync.php ===
+[2026-04-11T21:06:09+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 21:06:09 +0000] startup jobs batch done
+[2026-04-11 22:02:37 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 22:02:37 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 22:02:37 +0000] startup: monthly.php ===
+[2026-04-11 22:02:37] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 22:02:37] Templates scheduled for today (send_day=11): 1
+[2026-04-11 22:02:37] Template [5] "Opakovanie: VF-2026-0001" → Radoslav
+[2026-04-11 22:02:37]   → Already generated this month, skipping.
+[2026-04-11 22:02:37] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 22:02:37] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-11 22:02:37 +0000] startup: bank_sync.php ===
+[2026-04-11T22:02:37+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 22:02:37 +0000] startup jobs batch done
+[2026-04-11 22:17:47 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 22:17:47 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 22:17:47 +0000] startup: monthly.php ===
+[2026-04-11 22:17:47] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 22:17:47] Templates scheduled for today (send_day=11): 1
+[2026-04-11 22:17:47] Template [5] "Opakovanie: VF-2026-0001" → Radoslav
+[2026-04-11 22:17:47]   → Already generated this month, skipping.
+[2026-04-11 22:17:47] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 22:17:47] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-11 22:17:47 +0000] startup: bank_sync.php ===
+[2026-04-11T22:17:47+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 22:17:47 +0000] startup jobs batch done
+[2026-04-11 22:18:49 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 22:18:49 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 22:18:49 +0000] startup: monthly.php ===
+[2026-04-11 22:18:49] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 22:18:49] Templates scheduled for today (send_day=11): 1
+[2026-04-11 22:18:49] Template [5] "Opakovanie: VF-2026-0001" → Radoslav
+[2026-04-11 22:18:49]   → Already generated this month, skipping.
+[2026-04-11 22:18:49] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 22:18:49] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-11 22:18:49 +0000] startup: bank_sync.php ===
+[2026-04-11T22:18:49+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 22:18:49 +0000] startup jobs batch done
+[2026-04-11 22:38:57 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-11 22:38:57 +0000] startup: overdue.php ===
+[2026-04-11] SUMMARY job=overdue date=2026-04-11 invoices_marked_overdue=0
+[2026-04-11] overdue: nothing to update
+=== [2026-04-11 22:38:57 +0000] startup: monthly.php ===
+[2026-04-11 22:38:58] === Hermes Monthly Invoice Job – Day 11 (2026-04-11) ===
+[2026-04-11 22:38:58] Templates scheduled for today (send_day=11): 1
+[2026-04-11 22:38:58] Template [5] "Opakovanie: VF-2026-0001" → Radoslav
+[2026-04-11 22:38:58]   → Already generated this month, skipping.
+[2026-04-11 22:38:58] SUMMARY job=monthly_templates date=2026-04-11 day=11 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-11 22:38:58] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-11 22:38:58 +0000] startup: bank_sync.php ===
+[2026-04-11T22:38:58+00:00] SUMMARY job=bank_sync date=2026-04-11 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-11 22:38:58 +0000] startup jobs batch done
+[2026-04-12 00:13:15 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:13:15 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:13:15 +0000] startup: monthly.php ===
+[2026-04-12 00:13:15] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:13:15] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:13:15] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:13:15] Nothing to do.
+=== [2026-04-12 00:13:15 +0000] startup: bank_sync.php ===
+[2026-04-12T00:13:15+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:13:15 +0000] startup jobs batch done
+[2026-04-12 00:23:22 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:23:22 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:23:22 +0000] startup: monthly.php ===
+[2026-04-12 00:23:22] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:23:22] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:23:22] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:23:22] Nothing to do.
+=== [2026-04-12 00:23:22 +0000] startup: bank_sync.php ===
+[2026-04-12T00:23:22+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:23:22 +0000] startup jobs batch done
+[2026-04-12 00:36:03 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:36:03 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:36:03 +0000] startup: monthly.php ===
+[2026-04-12 00:36:03] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:36:03] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:36:03] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:36:03] Nothing to do.
+=== [2026-04-12 00:36:03 +0000] startup: bank_sync.php ===
+[2026-04-12T00:36:03+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:36:03 +0000] startup jobs batch done
+[2026-04-12 00:46:45 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:46:45 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:46:45 +0000] startup: monthly.php ===
+[2026-04-12 00:46:45] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:46:45] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:46:45] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:46:45] Nothing to do.
+=== [2026-04-12 00:46:45 +0000] startup: bank_sync.php ===
+[2026-04-12T00:46:45+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:46:45 +0000] startup jobs batch done
+[2026-04-12 00:54:18 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:54:18 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:54:18 +0000] startup: monthly.php ===
+[2026-04-12 00:54:18] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:54:18] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:54:18] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:54:18] Nothing to do.
+=== [2026-04-12 00:54:18 +0000] startup: bank_sync.php ===
+[2026-04-12T00:54:18+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:54:18 +0000] startup jobs batch done
+[2026-04-12 00:56:59 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 00:56:59 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 00:56:59 +0000] startup: monthly.php ===
+[2026-04-12 00:56:59] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 00:56:59] Templates scheduled for today (send_day=12): 0
+[2026-04-12 00:56:59] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 00:56:59] Nothing to do.
+=== [2026-04-12 00:56:59 +0000] startup: bank_sync.php ===
+[2026-04-12T00:57:00+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 00:57:00 +0000] startup jobs batch done
+[2026-04-12 01:02:12 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 01:02:12 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 01:02:12 +0000] startup: monthly.php ===
+[2026-04-12 01:02:12] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 01:02:12] Templates scheduled for today (send_day=12): 0
+[2026-04-12 01:02:12] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 01:02:12] Nothing to do.
+=== [2026-04-12 01:02:12 +0000] startup: bank_sync.php ===
+[2026-04-12T01:02:12+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 01:02:12 +0000] startup jobs batch done
+[2026-04-12 01:38:32 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 01:38:32 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 01:38:33 +0000] startup: monthly.php ===
+[2026-04-12 01:38:33] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 01:38:33] Templates scheduled for today (send_day=12): 0
+[2026-04-12 01:38:33] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 01:38:33] Nothing to do.
+=== [2026-04-12 01:38:33 +0000] startup: bank_sync.php ===
+[2026-04-12T01:38:33+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=5 sync_errors=0
+[2026-04-12 01:38:33 +0000] startup jobs batch done
+[2026-04-12 01:59:36 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 01:59:36 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 01:59:36 +0000] startup: monthly.php ===
+[2026-04-12 01:59:36] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 01:59:36] Templates scheduled for today (send_day=12): 0
+[2026-04-12 01:59:36] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 01:59:36] Nothing to do.
+=== [2026-04-12 01:59:36 +0000] startup: bank_sync.php ===
+[2026-04-12T01:59:36+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 01:59:36 +0000] startup jobs batch done
+[2026-04-12 02:27:56 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 02:27:56 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 02:27:56 +0000] startup: monthly.php ===
+[2026-04-12 02:27:56] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 02:27:56] Templates scheduled for today (send_day=12): 0
+[2026-04-12 02:27:56] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 02:27:56] Nothing to do.
+=== [2026-04-12 02:27:56 +0000] startup: bank_sync.php ===
+[2026-04-12T02:27:56+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 02:27:56 +0000] startup jobs batch done
+[2026-04-12 02:58:37 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 02:58:37 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 02:58:37 +0000] startup: monthly.php ===
+[2026-04-12 02:58:37] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 02:58:37] Templates scheduled for today (send_day=12): 1
+[2026-04-12 02:58:37] Template [6] "drutut" → Radoslav
+[2026-04-12 02:58:37]   → Already generated this month, skipping.
+[2026-04-12 02:58:37] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 02:58:37] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-12 02:58:37 +0000] startup: bank_sync.php ===
+[2026-04-12T02:58:37+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=1 sync_errors=0
+[2026-04-12 02:58:37 +0000] startup jobs batch done
+[2026-04-12 03:09:53 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 03:09:53 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 03:09:53 +0000] startup: monthly.php ===
+[2026-04-12 03:09:53] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 03:09:53] Templates scheduled for today (send_day=12): 1
+[2026-04-12 03:09:53] Template [6] "drutut" → Radoslav
+[2026-04-12 03:09:53]   → Already generated this month, skipping.
+[2026-04-12 03:09:53] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 03:09:53] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-12 03:09:53 +0000] startup: bank_sync.php ===
+[2026-04-12T03:09:53+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-12 03:09:53 +0000] startup jobs batch done
+[2026-04-12 03:20:11 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 03:20:11 +0000] startup: overdue.php ===
+[2026-04-12] marked overdue: #VF-2026-0015 (id=48)
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=1
+[2026-04-12] overdue: 1 invoice(s) updated
+=== [2026-04-12 03:20:11 +0000] startup: monthly.php ===
+[2026-04-12 03:20:11] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 03:20:11] Templates scheduled for today (send_day=12): 1
+[2026-04-12 03:20:11] Template [6] "drutut" → Radoslav
+[2026-04-12 03:20:11]   → Already generated this month, skipping.
+[2026-04-12 03:20:11] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 03:20:11] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-04-12 03:20:11 +0000] startup: bank_sync.php ===
+[2026-04-12T03:20:11+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=1 sync_errors=0
+[2026-04-12 03:20:11 +0000] startup jobs batch done
+[2026-04-12 03:36:58 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-12 03:36:58 +0000] startup: overdue.php ===
+[2026-04-12] SUMMARY job=overdue date=2026-04-12 invoices_marked_overdue=0
+[2026-04-12] overdue: nothing to update
+=== [2026-04-12 03:36:58 +0000] startup: monthly.php ===
+[2026-04-12 03:36:58] === Hermes Monthly Invoice Job – Day 12 (2026-04-12) ===
+[2026-04-12 03:36:58] Templates scheduled for today (send_day=12): 0
+[2026-04-12 03:36:58] SUMMARY job=monthly_templates date=2026-04-12 day=12 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-12 03:36:58] Nothing to do.
+=== [2026-04-12 03:36:58 +0000] startup: bank_sync.php ===
+[2026-04-12T03:36:58+00:00] SUMMARY job=bank_sync date=2026-04-12 active_connections=1 invoices_marked_paid=1 sync_errors=0
+[2026-04-12 03:36:58 +0000] startup jobs batch done
+[2026-04-13 20:19:46 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-13 20:19:46 +0000] startup: overdue.php ===
+[2026-04-13] SUMMARY job=overdue date=2026-04-13 invoices_marked_overdue=0
+[2026-04-13] overdue: nothing to update
+=== [2026-04-13 20:19:46 +0000] startup: monthly.php ===
+[2026-04-13 20:19:46] === Hermes Monthly Invoice Job – Day 13 (2026-04-13) ===
+[2026-04-13 20:19:46] Templates scheduled for today (send_day=13): 0
+[2026-04-13 20:19:46] SUMMARY job=monthly_templates date=2026-04-13 day=13 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-13 20:19:46] Nothing to do.
+=== [2026-04-13 20:19:46 +0000] startup: bank_sync.php ===
+[2026-04-13T20:19:46+00:00] SUMMARY job=bank_sync date=2026-04-13 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-13 20:19:46 +0000] startup jobs batch done
+[2026-04-24 19:25:32 +0000] startup: DB mariadb:3306 reachable
+=== [2026-04-24 19:25:32 +0000] startup: overdue.php ===
+[2026-04-24] SUMMARY job=overdue date=2026-04-24 invoices_marked_overdue=0
+[2026-04-24] overdue: nothing to update
+=== [2026-04-24 19:25:32 +0000] startup: monthly.php ===
+[2026-04-24 19:25:33] === Hermes Monthly Invoice Job – Day 24 (2026-04-24) ===
+[2026-04-24 19:25:33] Templates scheduled for today (send_day=24): 0
+[2026-04-24 19:25:33] SUMMARY job=monthly_templates date=2026-04-24 day=24 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-04-24 19:25:33] Nothing to do.
+=== [2026-04-24 19:25:33 +0000] startup: bank_sync.php ===
+[2026-04-24T19:25:33+00:00] SUMMARY job=bank_sync date=2026-04-24 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-04-24 19:25:33 +0000] startup jobs batch done
+[2026-05-01 04:30:53 +0000] startup: DB mariadb:3306 reachable
+=== [2026-05-01 04:30:53 +0000] startup: overdue.php ===
+[2026-05-01] SUMMARY job=overdue date=2026-05-01 invoices_marked_overdue=0
+[2026-05-01] overdue: nothing to update
+=== [2026-05-01 04:30:54 +0000] startup: monthly.php ===
+[2026-05-01 04:30:54] === Hermes Monthly Invoice Job – Day 1 (2026-05-01) ===
+[2026-05-01 04:30:54] Templates scheduled for today (send_day=1): 1
+[2026-05-01 04:30:54] Template [9] "Radoslav Šedivý" → Radoslav
+[2026-05-01 04:30:54]   ✓ Invoice created: VF-2026-0024 (id=60)
+[2026-05-01 04:30:58]   ✓ PDF+email → radoslavsedivy900@gmail.com
+[2026-05-01 04:30:58] SUMMARY job=monthly_templates date=2026-05-01 day=1 templates_today=1 skipped_already_month=0 invoices_created=1 emails_sent_ok=1 emails_failed=0 invoice_create_errors=0
+[2026-05-01 04:30:58] === Done: emails_sent_ok=1, total_errors=0 ===
+=== [2026-05-01 04:30:58 +0000] startup: bank_sync.php ===
+[2026-05-01T04:30:58+00:00] SUMMARY job=bank_sync date=2026-05-01 active_connections=1 invoices_marked_paid=1 sync_errors=0
+[2026-05-01 04:30:58 +0000] startup jobs batch done
+[2026-05-01 04:46:23 +0000] startup: DB mariadb:3306 reachable
+=== [2026-05-01 04:46:23 +0000] startup: overdue.php ===
+[2026-05-01] SUMMARY job=overdue date=2026-05-01 invoices_marked_overdue=0
+[2026-05-01] overdue: nothing to update
+=== [2026-05-01 04:46:24 +0000] startup: monthly.php ===
+[2026-05-01 04:46:24] === Hermes Monthly Invoice Job – Day 1 (2026-05-01) ===
+[2026-05-01 04:46:24] Templates scheduled for today (send_day=1): 1
+[2026-05-01 04:46:24] Template [9] "Radoslav Šedivý" → Radoslav
+[2026-05-01 04:46:24]   → Already generated this month, skipping.
+[2026-05-01 04:46:24] SUMMARY job=monthly_templates date=2026-05-01 day=1 templates_today=1 skipped_already_month=1 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-05-01 04:46:24] === Done: emails_sent_ok=0, total_errors=0 ===
+=== [2026-05-01 04:46:24 +0000] startup: bank_sync.php ===
+[2026-05-01T04:46:24+00:00] SUMMARY job=bank_sync date=2026-05-01 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-05-01 04:46:24 +0000] startup jobs batch done
+[2026-05-05 16:29:05 +0000] startup: DB mariadb:3306 reachable
+=== [2026-05-05 16:29:05 +0000] startup: overdue.php ===
+[2026-05-05] SUMMARY job=overdue date=2026-05-05 invoices_marked_overdue=0
+[2026-05-05] overdue: nothing to update
+=== [2026-05-05 16:29:05 +0000] startup: monthly.php ===
+[2026-05-05 16:29:05] === Hermes Monthly Invoice Job – Day 5 (2026-05-05) ===
+[2026-05-05 16:29:05] Templates scheduled for today (send_day=5): 0
+[2026-05-05 16:29:05] SUMMARY job=monthly_templates date=2026-05-05 day=5 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-05-05 16:29:05] Nothing to do.
+=== [2026-05-05 16:29:05 +0000] startup: bank_sync.php ===
+[2026-05-05T16:29:05+00:00] SUMMARY job=bank_sync date=2026-05-05 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-05-05 16:29:05 +0000] startup jobs batch done
+[2026-05-05 21:28:57 +0000] startup: DB mariadb:3306 reachable
+=== [2026-05-05 21:28:57 +0000] startup: overdue.php ===
+[2026-05-05] SUMMARY job=overdue date=2026-05-05 invoices_marked_overdue=0
+[2026-05-05] overdue: nothing to update
+=== [2026-05-05 21:28:57 +0000] startup: monthly.php ===
+[2026-05-05 21:28:57] === Hermes Monthly Invoice Job – Day 5 (2026-05-05) ===
+[2026-05-05 21:28:57] Templates scheduled for today (send_day=5): 0
+[2026-05-05 21:28:57] SUMMARY job=monthly_templates date=2026-05-05 day=5 templates_today=0 skipped_already_month=0 invoices_created=0 emails_sent_ok=0 emails_failed=0 invoice_create_errors=0
+[2026-05-05 21:28:57] Nothing to do.
+=== [2026-05-05 21:28:57 +0000] startup: bank_sync.php ===
+[2026-05-05T21:28:57+00:00] SUMMARY job=bank_sync date=2026-05-05 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-05-05 21:28:57 +0000] startup jobs batch done
+[2026-05-12 06:42:48 +0000] startup: DB mariadb:3306 reachable
+=== [2026-05-12 06:42:48 +0000] startup: overdue.php ===
+[2026-05-12] SUMMARY job=overdue date=2026-05-12 invoices_marked_overdue=0
+[2026-05-12] overdue: nothing to update
+=== [2026-05-12 06:42:48 +0000] startup: monthly.php ===
+
+Parse error: syntax error, unexpected identifier "with" in /var/www/html/cron/monthly.php on line 15
+[2026-05-12 06:42:48 +0000] startup: monthly.php exit 255
+=== [2026-05-12 06:42:48 +0000] startup: bank_sync.php ===
+[2026-05-12T06:42:48+00:00] SUMMARY job=bank_sync date=2026-05-12 active_connections=1 invoices_marked_paid=0 sync_errors=0
+[2026-05-12 06:42:48 +0000] startup jobs batch done

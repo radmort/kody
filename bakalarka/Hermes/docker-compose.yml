@@ -1,52 +1,132 @@
-version: "3.8"
+# =============================================================================
+# Hermes – Full stack
+# =============================================================================
 
 services:
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: hermes_phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST:     mariadb
+      PMA_USER:     hermes
+      PMA_PASSWORD: HermesApp2025!
+    depends_on:
+      - mariadb
+
   mariadb:
     image: mariadb:11.4
     container_name: mariadb
+    ports:
+      # Expose for DBeaver / local tools on the host (left = host, right = container).
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${DB_NAME}
-      MYSQL_USER: ${DB_USER}
-      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE:      ${DB_NAME}
+      MYSQL_USER:          ${DB_USER}
+      MYSQL_PASSWORD:      ${DB_PASSWORD}
     restart: always
-    # Port na host nepotrebuješ, ak sa pripája len druhý kontajner.
-    # Odkomentuj, ak chceš prístup z hosta (DBeaver a pod.)
-    # ports:
-    #   - "3306:3306"
     volumes:
       - mariadb_data:/var/lib/mysql
-    healthcheck:
-      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
 
-  ubuntu_light:
+  webapp:
     build:
-      context: .
-      dockerfile: ubuntu-dev.Dockerfile
-    image: hermes/ubuntu-dev:22.04
-    container_name: ubuntu_light
-    command: sleep infinity
-    tty: true
-    working_dir: /work
+      context:    .
+      dockerfile: Dockerfile
+    image:     hermes/webapp:latest
+    container_name: hermes_webapp
+    restart: unless-stopped
+    ports:
+      - "8080:80"
     environment:
-      # pre C++ app: načítaš cez std::getenv(...)
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_NAME: ${DB_NAME}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
+      DB_HOST:        mariadb
+      DB_PORT:        "3306"
+      DB_NAME:        ${DB_NAME}
+      DB_USER:        ${DB_USER}
+      DB_PASSWORD:    ${DB_PASSWORD}
+      HERMES_CONFIG:  /tmp/hermes_runtime_config.json
+      SMTP_HOST:      ${SMTP_HOST:-}
+      SMTP_PORT:      ${SMTP_PORT:-465}
+      SMTP_USER:      ${SMTP_USER:-}
+      SMTP_PASSWORD:  ${SMTP_PASSWORD:-}
+      SMTP_FROM:      ${SMTP_FROM:-}
+      SMTP_FROM_NAME: ${SMTP_FROM_NAME:-Hermes}
+      SMTP_TLS:       ${SMTP_TLS:-true}
+      HERMES_PUBLIC_URL: ${HERMES_PUBLIC_URL:-http://localhost:8080}
+      HERMES_BANK_TOKEN_KEY: ${HERMES_BANK_TOKEN_KEY:-}
+      HERMES_SBAS_CONFIG: ${HERMES_SBAS_CONFIG:-/etc/hermes/sbas.json}
+      SBAS_CLIENT_SECRET: ${SBAS_CLIENT_SECRET:-}
+      SBAS_USE_MOCK: ${SBAS_USE_MOCK:-}
     volumes:
-      - ./src:/work
-      # - ccache:/home/dev/.ccache
+      - ./config/config.json:/etc/hermes/config.json:ro
+      - ./config/layout.json:/etc/hermes/layout.json:ro
+      - ./config/sbas.json:/etc/hermes/sbas.json:ro
+      - ./config/sbas_banks_catalog.json:/etc/hermes/sbas_banks_catalog.json:ro
+      - ./logs:/var/log/hermes
+      - invoice_data:/tmp/hermes_invoices # PRIDANÉ: Web vidí priečinok
     depends_on:
-      mariadb:
-        condition: service_healthy
+      - mariadb
+
+  reminder:
+    build:
+      context:    .
+      dockerfile: Dockerfile
+    image:     hermes/reminder:latest
+    container_name: hermes_reminder
+    command:   ["/usr/local/bin/hermes-reminder-entrypoint.sh"]
+    restart: unless-stopped
+    environment:
+      DB_HOST:      mariadb
+      DB_PORT:      "3306"
+      DB_NAME:      ${DB_NAME}
+      DB_USER:      ${DB_USER}
+      DB_PASSWORD:  ${DB_PASSWORD}
+      HERMES_CONFIG: /tmp/hermes_runtime_config.json
+      SMTP_HOST:    ${SMTP_HOST:-}
+      SMTP_PORT:    ${SMTP_PORT:-465}
+      SMTP_USER:    ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM:    ${SMTP_FROM:-}
+      SMTP_FROM_NAME: ${SMTP_FROM_NAME:-Hermes}
+      SMTP_TLS:     ${SMTP_TLS:-true}
+      RUN_ON_START: "false"
+      HERMES_PUBLIC_URL: ${HERMES_PUBLIC_URL:-http://localhost:8080}
+      HERMES_BANK_TOKEN_KEY: ${HERMES_BANK_TOKEN_KEY:-}
+      HERMES_SBAS_CONFIG: ${HERMES_SBAS_CONFIG:-/etc/hermes/sbas.json}
+      SBAS_CLIENT_SECRET: ${SBAS_CLIENT_SECRET:-}
+      SBAS_USE_MOCK: ${SBAS_USE_MOCK:-}
+    volumes:
+      - ./config/config.json:/etc/hermes/config.json:ro
+      - ./config/layout.json:/etc/hermes/layout.json:ro
+      - ./config/sbas.json:/etc/hermes/sbas.json:ro
+      - ./config/sbas_banks_catalog.json:/etc/hermes/sbas_banks_catalog.json:ro
+      - ./logs:/var/log/hermes
+      - invoice_data:/tmp/hermes_invoices  # PRIDANÉ: C++ sem zapisuje
+    depends_on:
+      - mariadb
+
+  mock_bank:
+    build:
+      context:    ./mock_bank
+      dockerfile: Dockerfile
+    container_name: hermes_mock_bank
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    environment:
+      DB_HOST:     mariadb
+      DB_PORT:     "3306"
+      DB_NAME:     ${DB_NAME}
+      DB_USER:     ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      MOCK_IBAN:   "SK3112000000198742637541"
+    depends_on:
+      - mariadb
 
 volumes:
   mariadb_data:
     driver: local
-  # ccache:
-  #   driver: local
+  invoice_data:

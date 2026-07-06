@@ -1,0 +1,89 @@
+{
+  "_readme_sk": "Rozšíriteľný zoznam bánk pre stránku Banka. Pre každú banku skopírujte blok ako pri „vub“ a vyplňte oauth/ais podľa dokumentácie TPP (SLSP Apiary, developer.tatrabanka.sk, devportal.csob.sk, …). Hermes volá GET zoznam účtov a GET transakcie (Berlin Group štýl). client_id/client_secret zostávajú v sbas.json. Pozn.: Tatra Premium API a SLSP PSD2 môžu mať iné HTTP metódy/query ako VÚB – overte sync v dokumentácii.",
+  "banks": [
+    {
+      "id": "mock_local",
+      "name": "Hermes Mock Bank (lokálna)",
+      "doc": "",
+      "note_sk": "Lokálny mock server v Docker kontajneri mock_bank (port 8082). Authorize URL ide cez prehliadač (localhost), token a AIS sú server-to-server (Docker hostname). Dynamické transakcie sa generujú z unpaid faktúr v DB.",
+      "oauth": {
+        "authorize_url": "http://localhost:8082/oauth2/authorize",
+        "token_url": "http://mock_bank:80/oauth2/token",
+        "scope": "AIS",
+        "use_pkce": false
+      },
+      "ais": {
+        "api_base": "http://mock_bank:80",
+        "accounts_path": "/v1/accounts",
+        "transactions_path_template": "/v1/accounts/{accountId}/transactions",
+        "transaction_query": {
+          "bookingStatus": "booked"
+        }
+      }
+    },
+    {
+      "id": "vub",
+      "name": "VÚB",
+      "doc": "https://www.vub.sk/firmy-a-podnikatelia/platby/ini-poskytovatelia-sluzbov.html",
+      "note_sk": "Produkčný prístup vyžaduje registráciu TPP a často scope AIS:{consentId} po vytvorení súhlasu – overte v Implementation Guidelines.",
+      "oauth": {
+        "authorize_url": "https://api.vub.sk/oauth2/authorize",
+        "token_url": "https://api.vub.sk/oauth2/token",
+        "scope": "AIS",
+        "use_pkce": true
+      },
+      "ais": {
+        "api_base": "https://api.vub.sk",
+        "accounts_path": "/v1/accounts",
+        "transactions_path_template": "/v1/accounts/{accountId}/transactions",
+        "transaction_query": {
+          "bookingStatus": "booked"
+        }
+      }
+    },
+    {
+      "id": "tatra",
+      "name": "Tatra banka",
+      "doc": "https://developer.tatrabanka.sk/",
+      "note_sk": "OAuth a GET /api/v1/accounts podľa oficiálneho klienta (api.tatrabanka.sk). Token endpoint v dokumentácii často s HTTP Basic; Hermes posiela aj client_secret v tele. Transakcie v Premium API sú POST s JSON telom -- Hermes to podporuje cez transactions_method: POST.",
+      "oauth": {
+        "authorize_url": "https://api.tatrabanka.sk/auth/oauth/v2/authorize",
+        "token_url": "https://api.tatrabanka.sk/auth/oauth/v2/token",
+        "scope": "AISP",
+        "use_pkce": false,
+        "authorize_params": {
+          "lang": "sk"
+        }
+      },
+      "ais": {
+        "api_base": "https://api.tatrabanka.sk",
+        "accounts_path": "/api/v1/accounts",
+        "transactions_path_template": "/api/v1/accounts/{accountId}/transactions",
+        "transactions_method": "POST",
+        "transaction_query": {
+          "bookingStatus": "booked"
+        }
+      }
+    },
+    {
+      "id": "slsp",
+      "name": "SLSP",
+      "doc": "https://slsppsd2publicspecification.docs.apiary.io/",
+      "note_sk": "OAuth cez Sezamas: authorize/token na login.slsp.sk/sezamas (viď verejná PSD2 špecifikácia). AIS host: api.slsp.sk/tpp/webapi/api/v1. Transakcie v Apiary ako GET /psd2/my/transactions s query id, from, to – Hermes dnes posiela iba dateFrom/dateTo a kód účtu v ceste; úplná zhoda so sync môže vyžadovať rozšírenie SbasOAuth.",
+      "oauth": {
+        "authorize_url": "https://login.slsp.sk/sezamas/authorize",
+        "token_url": "https://login.slsp.sk/sezamas/token",
+        "scope": "AIS",
+        "use_pkce": true
+      },
+      "ais": {
+        "api_base": "https://api.slsp.sk/tpp/webapi/api/v1",
+        "accounts_path": "/psd2/my/accounts",
+        "transactions_path_template": "/psd2/my/transactions",
+        "transaction_query": {
+          "bookingStatus": "booked"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Hermes background jobs (runs in reminder container only; see docker-compose).
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Daily: mark unpaid invoices past due_date as overdue
+55 7 * * * root /usr/local/bin/hermes-cron-wrap.sh php /var/www/html/cron/overdue.php >> /var/log/hermes/cron.log 2>&1
+
+# Daily: generate invoices from templates whose send_day matches today
+0 8 * * * root /usr/local/bin/hermes-cron-wrap.sh php /var/www/html/cron/monthly.php >> /var/log/hermes/cron.log 2>&1
+
+# AIS / SBAS: sync bank transactions → mark invoices paid (every 30 min when configured)
+*/30 * * * * root /usr/local/bin/hermes-cron-wrap.sh php /var/www/html/cron/bank_sync.php >> /var/log/hermes/cron.log 2>&1
+
+# C++ billing_reminder: Reminders for existing unpaid invoices (PDF + SMTP).
+# Once a week: Monday at 8:00 AM (cron: 1 = Monday). Max. 2 successful reminders per invoice per calendar month (main.cpp + reminder_log).
+0 8 * * 1 root /usr/local/bin/hermes-run-billing-reminder.sh >> /var/log/hermes/cron.log 2>&1

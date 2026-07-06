@@ -1,0 +1,160 @@
+[2026-04-12 00:30:17 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:30:17] ===
+[2026-04-12 00:30:17 UTC] [info] MariaDB connected.
+[2026-04-12 00:30:17 UTC] [info] Pending reminders: 0
+[2026-04-12 00:30:17 UTC] [info] Nothing to do.
+[2026-04-12 00:30:17 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:30:37 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:30:37] ===
+[2026-04-12 00:30:37 UTC] [info] MariaDB connected.
+[2026-04-12 00:30:37 UTC] [info] Pending reminders: 0
+[2026-04-12 00:30:37 UTC] [info] Nothing to do.
+[2026-04-12 00:30:37 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:38:33 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:38:33] ===
+[2026-04-12 00:38:33 UTC] [info] MariaDB connected.
+[2026-04-12 00:38:33 UTC] [info] Pending reminders: 1
+[2026-04-12 00:38:33 UTC] [info] Invoice  | client_id 0 | due 
+[2026-04-12 00:38:33 UTC] [error]   Client 0 load: Load called with id=0
+[2026-04-12 00:38:33 UTC] [critical] Unhandled: mysql_stmt_execute failed (1452) Cannot add or update a child row: a foreign key constraint fails (`hermes_db`.`reminder_log`, CONSTRAINT `fk_rl_inv` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`id`) ON DELETE CASCADE)
+[2026-04-12 00:38:33 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:39:04 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:39:04] ===
+[2026-04-12 00:39:04 UTC] [info] MariaDB connected.
+[2026-04-12 00:39:04 UTC] [info] Pending reminders: 1
+[2026-04-12 00:39:04 UTC] [info] Invoice  | client_id 0 | due 
+[2026-04-12 00:39:04 UTC] [error]   Client 0 load: Load called with id=0
+[2026-04-12 00:39:04 UTC] [critical] Unhandled: mysql_stmt_execute failed (1452) Cannot add or update a child row: a foreign key constraint fails (`hermes_db`.`reminder_log`, CONSTRAINT `fk_rl_inv` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`id`) ON DELETE CASCADE)
+[2026-04-12 00:39:04 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:46:49 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:46:49] ===
+[2026-04-12 00:46:49 UTC] [info] MariaDB connected.
+[2026-04-12 00:46:49 UTC] [info] Pending reminders: 0
+[2026-04-12 00:46:49 UTC] [info] Nothing to do.
+[2026-04-12 00:46:49 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:47:07 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:47:07] ===
+[2026-04-12 00:47:07 UTC] [info] MariaDB connected.
+[2026-04-12 00:47:07 UTC] [info] Pending reminders: 0
+[2026-04-12 00:47:07 UTC] [info] Nothing to do.
+[2026-04-12 00:47:07 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:47:26 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:47:26] ===
+[2026-04-12 00:47:26 UTC] [info] MariaDB connected.
+[2026-04-12 00:47:26 UTC] [info] Pending reminders: 0
+[2026-04-12 00:47:26 UTC] [info] Nothing to do.
+[2026-04-12 00:47:26 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:48:54 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:48:54] ===
+[2026-04-12 00:48:54 UTC] [info] MariaDB connected.
+[2026-04-12 00:48:54 UTC] [info] Pending reminders: 0
+[2026-04-12 00:48:54 UTC] [info] Nothing to do.
+[2026-04-12 00:48:54 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:49:21 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:49:21] ===
+[2026-04-12 00:49:21 UTC] [info] MariaDB connected.
+[2026-04-12 00:49:21 UTC] [info] Pending reminders: 0
+[2026-04-12 00:49:21 UTC] [info] Nothing to do.
+[2026-04-12 00:49:21 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:49:24 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:49:24] ===
+[2026-04-12 00:49:24 UTC] [info] MariaDB connected.
+[2026-04-12 00:49:24 UTC] [info] Pending reminders: 0
+[2026-04-12 00:49:24 UTC] [info] Nothing to do.
+[2026-04-12 00:49:24 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 00:57:02 UTC] [info] === Hermes Reminder Job Started [2026-04-12 00:57:02] ===
+[2026-04-12 00:57:02 UTC] [info] MariaDB connected.
+[2026-04-12 00:57:02 UTC] [info] Pending reminders: 1
+[2026-04-12 00:57:02 UTC] [info] Invoice VF-2026-0006 | client_id 3 | due 2026-04-08
+[2026-04-12 00:57:02 UTC] [info]   PDF: /tmp/hermes_invoices/inv_38.pdf
+[2026-04-12 00:57:05 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 00:57:05 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 01:02:14 UTC] [info] === Hermes Reminder Job Started [2026-04-12 01:02:14] ===
+[2026-04-12 01:02:14 UTC] [info] MariaDB connected.
+[2026-04-12 01:02:14 UTC] [info] Pending reminders: 0
+[2026-04-12 01:02:14 UTC] [info] Nothing to do.
+[2026-04-12 01:02:14 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 01:04:45 UTC] [info] === Hermes Reminder Job Started [2026-04-12 01:04:45] ===
+[2026-04-12 01:04:45 UTC] [info] MariaDB connected.
+[2026-04-12 01:04:45 UTC] [info] Pending reminders: 1
+[2026-04-12 01:04:45 UTC] [info] Invoice VF-2026-0006 | client_id 3 | due 2026-04-07
+[2026-04-12 01:04:45 UTC] [info]   PDF: /tmp/hermes_invoices/inv_39_download.pdf
+[2026-04-12 01:04:48 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 01:04:48 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 02:59:54 UTC] [info] === Hermes Reminder Job Started [2026-04-12 02:59:54] ===
+[2026-04-12 02:59:54 UTC] [info] MariaDB connected.
+[2026-04-12 02:59:54 UTC] [info] Pending reminders: 0
+[2026-04-12 02:59:54 UTC] [info] Nothing to do.
+[2026-04-12 02:59:54 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:13:40 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:13:40] ===
+[2026-04-12 03:13:40 UTC] [info] MariaDB connected.
+[2026-04-12 03:13:40 UTC] [info] Pending reminders: 0
+[2026-04-12 03:13:40 UTC] [info] Nothing to do.
+[2026-04-12 03:13:40 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:18:25 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:18:25] ===
+[2026-04-12 03:18:25 UTC] [info] MariaDB connected.
+[2026-04-12 03:18:25 UTC] [info] Pending reminders: 1
+[2026-04-12 03:18:25 UTC] [info] Invoice VF-2026-0015 | client_id 3 | due 2026-04-11
+[2026-04-12 03:18:25 UTC] [info]   PDF: /tmp/hermes_invoices/inv_48_download.pdf
+[2026-04-12 03:18:30 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:18:30 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:20:15 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:20:15] ===
+[2026-04-12 03:20:15 UTC] [info] MariaDB connected.
+[2026-04-12 03:20:15 UTC] [info] Pending reminders: 0
+[2026-04-12 03:20:15 UTC] [info] Nothing to do.
+[2026-04-12 03:20:15 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:25:57 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:25:57] ===
+[2026-04-12 03:25:57 UTC] [info] MariaDB connected.
+[2026-04-12 03:25:57 UTC] [info] Pending reminders: 1
+[2026-04-12 03:25:57 UTC] [info] Invoice VF-2026-0016 | client_id 3 | due 2026-04-11
+[2026-04-12 03:25:57 UTC] [info]   PDF: /tmp/hermes_invoices/inv_49_download.pdf
+[2026-04-12 03:26:00 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:26:00 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:30:05 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:30:05] ===
+[2026-04-12 03:30:05 UTC] [info] MariaDB connected.
+[2026-04-12 03:30:05 UTC] [info] Pending reminders: 0
+[2026-04-12 03:30:05 UTC] [info] Nothing to do.
+[2026-04-12 03:30:05 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:30:55 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:30:55] ===
+[2026-04-12 03:30:55 UTC] [info] MariaDB connected.
+[2026-04-12 03:30:55 UTC] [info] Pending reminders: 1
+[2026-04-12 03:30:55 UTC] [info] Invoice VF-2026-0018 | client_id 3 | due 2026-04-11
+[2026-04-12 03:30:55 UTC] [info]   PDF: /tmp/hermes_invoices/inv_51_download.pdf
+[2026-04-12 03:30:58 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:30:58 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:47:19 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:47:19] ===
+[2026-04-12 03:47:19 UTC] [info] MariaDB connected.
+[2026-04-12 03:47:19 UTC] [critical] SMTP not configured: set SMTP_* in environment (e.g. .env / docker-compose) and/or smtp in config JSON — same as PHP webapp.
+[2026-04-12 03:49:34 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:49:34] ===
+[2026-04-12 03:49:34 UTC] [info] MariaDB connected.
+[2026-04-12 03:49:34 UTC] [info] Pending reminders: 0
+[2026-04-12 03:49:34 UTC] [info] Nothing to do.
+[2026-04-12 03:49:34 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:49:58 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:49:58] ===
+[2026-04-12 03:49:58 UTC] [info] MariaDB connected.
+[2026-04-12 03:49:58 UTC] [info] Pending reminders: 0
+[2026-04-12 03:49:58 UTC] [info] Nothing to do.
+[2026-04-12 03:49:58 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:50:57 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:50:57] ===
+[2026-04-12 03:50:57 UTC] [info] MariaDB connected.
+[2026-04-12 03:50:57 UTC] [info] Pending reminders: 1
+[2026-04-12 03:50:57 UTC] [info] Invoice VF-2026-0021 | client_id 3 | due 2026-04-11
+[2026-04-12 03:50:57 UTC] [info]   PDF: /tmp/hermes_invoices/inv_54_download.pdf
+[2026-04-12 03:51:00 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:51:00 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:51:38 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:51:38] ===
+[2026-04-12 03:51:38 UTC] [info] MariaDB connected.
+[2026-04-12 03:51:38 UTC] [info] Pending reminders: 0
+[2026-04-12 03:51:38 UTC] [info] Nothing to do.
+[2026-04-12 03:51:38 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:52:14 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:52:14] ===
+[2026-04-12 03:52:14 UTC] [info] MariaDB connected.
+[2026-04-12 03:52:14 UTC] [info] Pending reminders: 1
+[2026-04-12 03:52:14 UTC] [info] Invoice VF-2026-0019 | client_id 3 | due 2026-04-09
+[2026-04-12 03:52:14 UTC] [info]   PDF: /tmp/hermes_invoices/inv_55_download.pdf
+[2026-04-12 03:52:17 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:52:17 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-12 03:57:04 UTC] [info] === Hermes Reminder Job Started [2026-04-12 03:57:04] ===
+[2026-04-12 03:57:04 UTC] [info] MariaDB connected.
+[2026-04-12 03:57:04 UTC] [info] Pending reminders: 1
+[2026-04-12 03:57:04 UTC] [info] Invoice VF-2026-0020 | client_id 3 | due 2026-04-26
+[2026-04-12 03:57:04 UTC] [info]   PDF: /tmp/hermes_invoices/inv_56_download.pdf
+[2026-04-12 03:57:06 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-12 03:57:06 UTC] [info] === Hermes Reminder Job Done ===
+[2026-04-14 00:24:42 UTC] [info] === Hermes Reminder Job Started [2026-04-14 00:24:42] ===
+[2026-04-14 00:24:42 UTC] [info] MariaDB connected.
+[2026-04-14 00:24:42 UTC] [info] Pending reminders: 1
+[2026-04-14 00:24:42 UTC] [info] Invoice VF-2026-0021 | client_id 3 | due 2026-04-12
+[2026-04-14 00:24:42 UTC] [info]   PDF: /tmp/hermes_invoices/inv_57_download.pdf
+[2026-04-14 00:24:45 UTC] [info]   ✓ Sent → radoslavsedivy900@gmail.com
+[2026-04-14 00:24:45 UTC] [info] === Hermes Reminder Job Done ===

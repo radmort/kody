@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|c:\\users\\jarmi\\documents\\kody\\c# kody\\vedecka kalkulacka aj s exe\\vedecka kalkulacka\\kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|solutionrelative:kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|c:\\users\\jarmi\\documents\\kody\\c# kody\\vedecka kalkulacka aj s exe\\vedecka kalkulacka\\kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|solutionrelative:kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|c:\\users\\jarmi\\documents\\kody\\c# kody\\vedecka kalkulacka aj s exe\\vedecka kalkulacka\\kalkulacka\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|solutionrelative:kalkulacka\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|c:\\users\\jarmi\\documents\\kody\\c# kody\\vedecka kalkulacka aj s exe\\vedecka kalkulacka\\kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9869F1F9-CCDA-4D94-AAB3-4742EC773CC3}|Kalkulacka\\Kalkulacka.csproj|solutionrelative:kalkulacka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\Kalkulacka\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Kalkulacka\\Form1.Designer.cs",
@@ -43,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\Kalkulacka\\Form1.cs",
               "RelativeDocumentMoniker": "Kalkulacka\\Form1.cs",
               "ToolTip": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\Kalkulacka\\Form1.cs",
               "RelativeToolTip": "Kalkulacka\\Form1.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAmwA8AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAswFgBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T19:37:19.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\Kalkulacka\\Program.cs",
               "RelativeDocumentMoniker": "Kalkulacka\\Program.cs",
@@ -64,12 +64,11 @@
               "RelativeToolTip": "Kalkulacka\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:35:57.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T19:35:57.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jarmi\\Documents\\kody\\C# kody\\vedecka kalkulacka aj s exe\\vedecka Kalkulacka\\Kalkulacka\\Form1.cs",
               "RelativeDocumentMoniker": "Kalkulacka\\Form1.cs",

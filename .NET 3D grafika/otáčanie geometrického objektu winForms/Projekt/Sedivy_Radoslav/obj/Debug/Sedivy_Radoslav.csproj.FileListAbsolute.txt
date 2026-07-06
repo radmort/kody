@@ -1,0 +1,34 @@
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.AssemblyReference.cache
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.Properties.Resources.resources
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.GenerateResource.cache
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe.config
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.pdb
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\RectangleRotation.Form1.resources
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.pdb
+C:\Users\jarmi\Documents\VS22 kody\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.exe.config
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe.config
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.pdb
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.AssemblyReference.cache
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.Properties.Resources.resources
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.GenerateResource.cache
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.pdb
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\RectangleRotation.NapovedaForm.resources
+C:\Users\jarmi\Desktop\pgcso\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\RectangleRotation.Matrix3x3.resources
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe.config
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\bin\Debug\Sedivy_Radoslav.pdb
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.AssemblyReference.cache
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.exe.config
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\RectangleRotation.Form1.resources
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\RectangleRotation.NapovedaForm.resources
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.Properties.Resources.resources
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.GenerateResource.cache
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.csproj.CoreCompileInputs.cache
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.exe
+C:\Users\jarmi\Desktop\pgsco\Sedivy_Radoslav\Sedivy_Radoslav\obj\Debug\Sedivy_Radoslav.pdb

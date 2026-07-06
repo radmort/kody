@@ -1,16 +1,89 @@
-# ./ubuntu-dev.Dockerfile
-FROM ubuntu:22.04
+# =============================================================================
+# Hermes – single image for webapp (Apache) and reminder (cron only).
+# Build context = project root (CMakeLists.txt, src/, webapp/, scripts/).
+# =============================================================================
+
+# ── Stage 1: C++ build ────────────────────────────────────────────────────────
+FROM ubuntu:22.04 AS cpp-builder
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Basic build + git + CA + useful tools
-RUN apt-get update \
- && apt-get install -y --no-install-recommends \
-      build-essential git ca-certificates pkg-config cmake \
-      gdb curl wget vim \
- && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential git ca-certificates pkg-config cmake \
+        libmariadb-dev libmariadb-dev-compat \
+        libcurl4-openssl-dev \
+        libhpdf-dev \
+        nlohmann-json3-dev \
+        libspdlog-dev \
+        fonts-inconsolata fonts-dejavu \
+    && rm -rf /var/lib/apt/lists/*
 
-# (Optional) non-root user
-RUN useradd -m -u 1000 dev
-USER dev
-WORKDIR /work
+WORKDIR /build
+COPY CMakeLists.txt .
+COPY src/            src/
+COPY config/         config/
+
+RUN cmake -B cmake-build -DCMAKE_BUILD_TYPE=Release \
+        -DSPDLOG_BUILD_SHARED=OFF \
+ && cmake --build cmake-build --parallel "$(nproc)"
+
+# ── Stage 2: PHP + Apache + billing_reminder ─────────────────────────────────
+FROM php:8.2-apache
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        cron tini \
+        libonig-dev libpng-dev libzip-dev \
+        libmariadb3 \
+        libcurl4 \
+        libhpdf-dev \
+        ca-certificates \
+        fonts-inconsolata fonts-dejavu \
+    && rm -rf /var/lib/apt/lists/* \
+    && docker-php-ext-install pdo pdo_mysql mysqli mbstring \
+    && a2enmod rewrite
+
+COPY --from=cpp-builder /usr/lib/x86_64-linux-gnu/libspdlog.so* /usr/lib/x86_64-linux-gnu/
+COPY --from=cpp-builder /usr/lib/x86_64-linux-gnu/libfmt.so*    /usr/lib/x86_64-linux-gnu/
+
+RUN sed -i 's/AllowOverride None/AllowOverride All/g' \
+        /etc/apache2/apache2.conf \
+ && ldconfig
+
+COPY --from=cpp-builder /build/cmake-build/billing_reminder \
+                        /usr/local/bin/billing_reminder
+RUN chmod 755 /usr/local/bin/billing_reminder
+
+RUN mkdir -p /usr/local/lib/hermes
+COPY scripts/merge-runtime-config.php /usr/local/lib/hermes/
+COPY scripts/hermes-cron-wrap.sh       /usr/local/bin/hermes-cron-wrap.sh
+COPY scripts/hermes-run-billing-reminder.sh /usr/local/bin/hermes-run-billing-reminder.sh
+COPY scripts/entrypoint.sh             /usr/local/bin/hermes-reminder-entrypoint.sh
+COPY scripts/crontab                   /etc/cron.d/hermes
+RUN sed -i 's/\r$//' /etc/cron.d/hermes
+
+WORKDIR /var/www/html
+COPY webapp/ .
+COPY config/sbas_banks_catalog.json /etc/hermes/sbas_banks_catalog.json
+
+RUN sed -i 's/\r$//' /usr/local/bin/hermes-cron-wrap.sh \
+        /usr/local/bin/hermes-run-billing-reminder.sh \
+        /usr/local/bin/hermes-reminder-entrypoint.sh \
+        /var/www/html/docker-entrypoint.sh \
+        /var/www/html/docker-startup-jobs.sh \
+ && sed -i 's/\r$//' /usr/local/lib/hermes/merge-runtime-config.php \
+ && chmod +x /usr/local/bin/hermes-cron-wrap.sh \
+        /usr/local/bin/hermes-run-billing-reminder.sh \
+        /usr/local/bin/hermes-reminder-entrypoint.sh \
+ && chmod 644 /etc/cron.d/hermes \
+ && mkdir -p /var/log /tmp/hermes_invoices /tmp/hermes_pdf_cache /var/log/hermes \
+ && chown -R www-data:www-data /var/www/html /tmp/hermes_invoices /tmp/hermes_pdf_cache /var/log/hermes \
+ && chmod -R 755 /var/www/html /tmp/hermes_invoices /tmp/hermes_pdf_cache /var/log/hermes \
+ && chmod +x /var/www/html/cron/monthly.php \
+ && chmod +x /var/www/html/docker-entrypoint.sh \
+ && chmod +x /var/www/html/docker-startup-jobs.sh
+
+EXPOSE 80
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["/var/www/html/docker-entrypoint.sh"]
